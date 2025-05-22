@@ -1,0 +1,6164 @@
+{
+  "data": {
+    "614": {
+      "timestamp": 614,
+      "value": 62
+    },
+    "615": {
+      "timestamp": 615,
+      "value": 169
+    },
+    "616": {
+      "timestamp": 616,
+      "value": 18
+    },
+    "617": {
+      "timestamp": 617,
+      "value": 171
+    },
+    "689": {
+      "timestamp": 689,
+      "value": 154
+    },
+    "3616": {
+      "timestamp": 3616,
+      "value": 101
+    },
+    "3699": {
+      "timestamp": 3699,
+      "value": 146
+    },
+    "6730": {
+      "timestamp": 6730,
+      "value": 28
+    },
+    "6876": {
+      "timestamp": 6876,
+      "value": 79
+    },
+    "6934": {
+      "timestamp": 6934,
+      "value": 153
+    },
+    "7271": {
+      "timestamp": 7271,
+      "value": 252
+    },
+    "9586": {
+      "timestamp": 9586,
+      "value": 0
+    },
+    "9661": {
+      "timestamp": 9661,
+      "value": 127
+    },
+    "12266": {
+      "timestamp": 12266,
+      "value": 220
+    },
+    "12276": {
+      "timestamp": 12276,
+      "value": 156
+    },
+    "12428": {
+      "timestamp": 12428,
+      "value": 109
+    },
+    "12791": {
+      "timestamp": 12791,
+      "value": 202
+    },
+    "14915": {
+      "timestamp": 14915,
+      "value": 89
+    },
+    "15107": {
+      "timestamp": 15107,
+      "value": 182
+    },
+    "17855": {
+      "timestamp": 17855,
+      "value": 128
+    },
+    "18000": {
+      "timestamp": 18000,
+      "value": 242
+    },
+    "18438": {
+      "timestamp": 18438,
+      "value": 104
+    },
+    "19018": {
+      "timestamp": 19018,
+      "value": 94
+    },
+    "20509": {
+      "timestamp": 20509,
+      "value": 116
+    },
+    "23331": {
+      "timestamp": 23331,
+      "value": 29
+    },
+    "23851": {
+      "timestamp": 23851,
+      "value": 205
+    },
+    "24440": {
+      "timestamp": 24440,
+      "value": 92
+    },
+    "24445": {
+      "timestamp": 24445,
+      "value": 63
+    },
+    "26346": {
+      "timestamp": 26346,
+      "value": 159
+    },
+    "28753": {
+      "timestamp": 28753,
+      "value": 128
+    },
+    "29182": {
+      "timestamp": 29182,
+      "value": 193
+    },
+    "29856": {
+      "timestamp": 29856,
+      "value": 35
+    },
+    "32899": {
+      "timestamp": 32899,
+      "value": 196
+    },
+    "34083": {
+      "timestamp": 34083,
+      "value": 232
+    },
+    "37728": {
+      "timestamp": 37728,
+      "value": 76
+    },
+    "38105": {
+      "timestamp": 38105,
+      "value": 57
+    },
+    "38235": {
+      "timestamp": 38235,
+      "value": 169
+    },
+    "43149": {
+      "timestamp": 43149,
+      "value": 134
+    },
+    "43991": {
+      "timestamp": 43991,
+      "value": 188
+    },
+    "50344": {
+      "timestamp": 50344,
+      "value": 145
+    },
+    "57067": {
+      "timestamp": 57067,
+      "value": 181
+    },
+    "62802": {
+      "timestamp": 62802,
+      "value": 148
+    },
+    "68148": {
+      "timestamp": 68148,
+      "value": 171
+    },
+    "73962": {
+      "timestamp": 73962,
+      "value": 204
+    },
+    "79391": {
+      "timestamp": 79391,
+      "value": 170
+    },
+    "84818": {
+      "timestamp": 84818,
+      "value": 125
+    },
+    "90148": {
+      "timestamp": 90148,
+      "value": 214
+    },
+    "96594": {
+      "timestamp": 96594,
+      "value": 218
+    },
+    "102134": {
+      "timestamp": 102134,
+      "value": 53
+    },
+    "107553": {
+      "timestamp": 107553,
+      "value": 57
+    },
+    "112877": {
+      "timestamp": 112877,
+      "value": 150
+    },
+    "118714": {
+      "timestamp": 118714,
+      "value": 140
+    },
+    "124044": {
+      "timestamp": 124044,
+      "value": 53
+    },
+    "129876": {
+      "timestamp": 129876,
+      "value": 72
+    },
+    "135304": {
+      "timestamp": 135304,
+      "value": 89
+    },
+    "140634": {
+      "timestamp": 140634,
+      "value": 165
+    },
+    "145955": {
+      "timestamp": 145955,
+      "value": 20
+    },
+    "151381": {
+      "timestamp": 151381,
+      "value": 10
+    },
+    "159366": {
+      "timestamp": 159366,
+      "value": 216
+    },
+    "164695": {
+      "timestamp": 164695,
+      "value": 248
+    },
+    "170121": {
+      "timestamp": 170121,
+      "value": 245
+    },
+    "175459": {
+      "timestamp": 175459,
+      "value": 150
+    },
+    "181182": {
+      "timestamp": 181182,
+      "value": 119
+    },
+    "187529": {
+      "timestamp": 187529,
+      "value": 157
+    },
+    "193366": {
+      "timestamp": 193366,
+      "value": 220
+    },
+    "198698": {
+      "timestamp": 198698,
+      "value": 74
+    },
+    "204130": {
+      "timestamp": 204130,
+      "value": 5
+    },
+    "209577": {
+      "timestamp": 209577,
+      "value": 173
+    },
+    "214974": {
+      "timestamp": 214974,
+      "value": 95
+    },
+    "220319": {
+      "timestamp": 220319,
+      "value": 7
+    },
+    "226046": {
+      "timestamp": 226046,
+      "value": 162
+    },
+    "231987": {
+      "timestamp": 231987,
+      "value": 235
+    },
+    "237401": {
+      "timestamp": 237401,
+      "value": 214
+    },
+    "243758": {
+      "timestamp": 243758,
+      "value": 106
+    },
+    "250405": {
+      "timestamp": 250405,
+      "value": 151
+    },
+    "255832": {
+      "timestamp": 255832,
+      "value": 83
+    },
+    "261175": {
+      "timestamp": 261175,
+      "value": 244
+    },
+    "266586": {
+      "timestamp": 266586,
+      "value": 219
+    },
+    "272012": {
+      "timestamp": 272012,
+      "value": 32
+    },
+    "277850": {
+      "timestamp": 277850,
+      "value": 221
+    },
+    "283179": {
+      "timestamp": 283179,
+      "value": 121
+    },
+    "288524": {
+      "timestamp": 288524,
+      "value": 200
+    },
+    "293859": {
+      "timestamp": 293859,
+      "value": 27
+    },
+    "300685": {
+      "timestamp": 300685,
+      "value": 69
+    },
+    "306015": {
+      "timestamp": 306015,
+      "value": 3
+    },
+    "311438": {
+      "timestamp": 311438,
+      "value": 150
+    },
+    "316781": {
+      "timestamp": 316781,
+      "value": 122
+    },
+    "323569": {
+      "timestamp": 323569,
+      "value": 73
+    },
+    "329360": {
+      "timestamp": 329360,
+      "value": 93
+    },
+    "334684": {
+      "timestamp": 334684,
+      "value": 107
+    },
+    "341347": {
+      "timestamp": 341347,
+      "value": 213
+    },
+    "346765": {
+      "timestamp": 346765,
+      "value": 76
+    },
+    "352707": {
+      "timestamp": 352707,
+      "value": 129
+    },
+    "358543": {
+      "timestamp": 358543,
+      "value": 223
+    },
+    "363969": {
+      "timestamp": 363969,
+      "value": 206
+    },
+    "369309": {
+      "timestamp": 369309,
+      "value": 31
+    },
+    "375380": {
+      "timestamp": 375380,
+      "value": 98
+    },
+    "381174": {
+      "timestamp": 381174,
+      "value": 94
+    },
+    "386910": {
+      "timestamp": 386910,
+      "value": 81
+    },
+    "392241": {
+      "timestamp": 392241,
+      "value": 193
+    },
+    "397892": {
+      "timestamp": 397892,
+      "value": 160
+    },
+    "403302": {
+      "timestamp": 403302,
+      "value": 184
+    },
+    "409950": {
+      "timestamp": 409950,
+      "value": 63
+    },
+    "415378": {
+      "timestamp": 415378,
+      "value": 54
+    },
+    "420713": {
+      "timestamp": 420713,
+      "value": 213
+    },
+    "426437": {
+      "timestamp": 426437,
+      "value": 196
+    },
+    "432172": {
+      "timestamp": 432172,
+      "value": 108
+    },
+    "437599": {
+      "timestamp": 437599,
+      "value": 75
+    },
+    "443954": {
+      "timestamp": 443954,
+      "value": 211
+    },
+    "449376": {
+      "timestamp": 449376,
+      "value": 229
+    },
+    "454701": {
+      "timestamp": 454701,
+      "value": 153
+    },
+    "460334": {
+      "timestamp": 460334,
+      "value": 87
+    },
+    "470579": {
+      "timestamp": 470579,
+      "value": 52
+    },
+    "476333": {
+      "timestamp": 476333,
+      "value": 154
+    },
+    "481740": {
+      "timestamp": 481740,
+      "value": 104
+    },
+    "487162": {
+      "timestamp": 487162,
+      "value": 6
+    },
+    "492487": {
+      "timestamp": 492487,
+      "value": 38
+    },
+    "498222": {
+      "timestamp": 498222,
+      "value": 152
+    },
+    "503673": {
+      "timestamp": 503673,
+      "value": 115
+    },
+    "509081": {
+      "timestamp": 509081,
+      "value": 137
+    },
+    "514506": {
+      "timestamp": 514506,
+      "value": 20
+    },
+    "519829": {
+      "timestamp": 519829,
+      "value": 188
+    },
+    "525262": {
+      "timestamp": 525262,
+      "value": 37
+    },
+    "531016": {
+      "timestamp": 531016,
+      "value": 188
+    },
+    "537184": {
+      "timestamp": 537184,
+      "value": 190
+    },
+    "542870": {
+      "timestamp": 542870,
+      "value": 121
+    },
+    "548295": {
+      "timestamp": 548295,
+      "value": 147
+    },
+    "554245": {
+      "timestamp": 554245,
+      "value": 57
+    },
+    "560104": {
+      "timestamp": 560104,
+      "value": 222
+    },
+    "565604": {
+      "timestamp": 565604,
+      "value": 109
+    },
+    "571031": {
+      "timestamp": 571031,
+      "value": 26
+    },
+    "576358": {
+      "timestamp": 576358,
+      "value": 55
+    },
+    "581690": {
+      "timestamp": 581690,
+      "value": 90
+    },
+    "587447": {
+      "timestamp": 587447,
+      "value": 157
+    },
+    "592843": {
+      "timestamp": 592843,
+      "value": 13
+    },
+    "598168": {
+      "timestamp": 598168,
+      "value": 130
+    },
+    "603595": {
+      "timestamp": 603595,
+      "value": 133
+    },
+    "610265": {
+      "timestamp": 610265,
+      "value": 150
+    },
+    "615679": {
+      "timestamp": 615679,
+      "value": 191
+    },
+    "621413": {
+      "timestamp": 621413,
+      "value": 104
+    },
+    "627806": {
+      "timestamp": 627806,
+      "value": 245
+    },
+    "634143": {
+      "timestamp": 634143,
+      "value": 156
+    },
+    "640971": {
+      "timestamp": 640971,
+      "value": 196
+    },
+    "646302": {
+      "timestamp": 646302,
+      "value": 221
+    },
+    "651725": {
+      "timestamp": 651725,
+      "value": 74
+    },
+    "657050": {
+      "timestamp": 657050,
+      "value": 132
+    },
+    "662381": {
+      "timestamp": 662381,
+      "value": 135
+    },
+    "668237": {
+      "timestamp": 668237,
+      "value": 197
+    },
+    "673644": {
+      "timestamp": 673644,
+      "value": 214
+    },
+    "679067": {
+      "timestamp": 679067,
+      "value": 167
+    },
+    "684396": {
+      "timestamp": 684396,
+      "value": 138
+    },
+    "689819": {
+      "timestamp": 689819,
+      "value": 214
+    },
+    "695270": {
+      "timestamp": 695270,
+      "value": 45
+    },
+    "700682": {
+      "timestamp": 700682,
+      "value": 154
+    },
+    "706408": {
+      "timestamp": 706408,
+      "value": 56
+    },
+    "712148": {
+      "timestamp": 712148,
+      "value": 143
+    },
+    "717577": {
+      "timestamp": 717577,
+      "value": 214
+    },
+    "722902": {
+      "timestamp": 722902,
+      "value": 40
+    },
+    "728281": {
+      "timestamp": 728281,
+      "value": 227
+    },
+    "735009": {
+      "timestamp": 735009,
+      "value": 163
+    },
+    "741021": {
+      "timestamp": 741021,
+      "value": 187
+    },
+    "746358": {
+      "timestamp": 746358,
+      "value": 172
+    },
+    "751978": {
+      "timestamp": 751978,
+      "value": 56
+    },
+    "757611": {
+      "timestamp": 757611,
+      "value": 178
+    },
+    "763037": {
+      "timestamp": 763037,
+      "value": 50
+    },
+    "768362": {
+      "timestamp": 768362,
+      "value": 12
+    },
+    "773803": {
+      "timestamp": 773803,
+      "value": 47
+    },
+    "779218": {
+      "timestamp": 779218,
+      "value": 14
+    },
+    "784548": {
+      "timestamp": 784548,
+      "value": 116
+    },
+    "789969": {
+      "timestamp": 789969,
+      "value": 36
+    },
+    "796532": {
+      "timestamp": 796532,
+      "value": 157
+    },
+    "801968": {
+      "timestamp": 801968,
+      "value": 249
+    },
+    "807725": {
+      "timestamp": 807725,
+      "value": 150
+    },
+    "813420": {
+      "timestamp": 813420,
+      "value": 73
+    },
+    "818848": {
+      "timestamp": 818848,
+      "value": 56
+    },
+    "824174": {
+      "timestamp": 824174,
+      "value": 95
+    },
+    "829598": {
+      "timestamp": 829598,
+      "value": 92
+    },
+    "834930": {
+      "timestamp": 834930,
+      "value": 181
+    },
+    "840352": {
+      "timestamp": 840352,
+      "value": 49
+    },
+    "845780": {
+      "timestamp": 845780,
+      "value": 20
+    },
+    "851207": {
+      "timestamp": 851207,
+      "value": 228
+    },
+    "857165": {
+      "timestamp": 857165,
+      "value": 171
+    },
+    "862716": {
+      "timestamp": 862716,
+      "value": 59
+    },
+    "868513": {
+      "timestamp": 868513,
+      "value": 2
+    },
+    "873941": {
+      "timestamp": 873941,
+      "value": 168
+    },
+    "879368": {
+      "timestamp": 879368,
+      "value": 161
+    },
+    "884712": {
+      "timestamp": 884712,
+      "value": 135
+    },
+    "890570": {
+      "timestamp": 890570,
+      "value": 35
+    },
+    "895956": {
+      "timestamp": 895956,
+      "value": 101
+    },
+    "901385": {
+      "timestamp": 901385,
+      "value": 105
+    },
+    "906812": {
+      "timestamp": 906812,
+      "value": 212
+    },
+    "912240": {
+      "timestamp": 912240,
+      "value": 73
+    },
+    "917705": {
+      "timestamp": 917705,
+      "value": 180
+    },
+    "924426": {
+      "timestamp": 924426,
+      "value": 197
+    },
+    "929751": {
+      "timestamp": 929751,
+      "value": 23
+    },
+    "935179": {
+      "timestamp": 935179,
+      "value": 103
+    },
+    "940503": {
+      "timestamp": 940503,
+      "value": 235
+    },
+    "946281": {
+      "timestamp": 946281,
+      "value": 43
+    },
+    "951984": {
+      "timestamp": 951984,
+      "value": 188
+    },
+    "957502": {
+      "timestamp": 957502,
+      "value": 20
+    },
+    "963749": {
+      "timestamp": 963749,
+      "value": 64
+    },
+    "969204": {
+      "timestamp": 969204,
+      "value": 126
+    },
+    "974650": {
+      "timestamp": 974650,
+      "value": 105
+    },
+    "981297": {
+      "timestamp": 981297,
+      "value": 0
+    },
+    "986790": {
+      "timestamp": 986790,
+      "value": 10
+    },
+    "992153": {
+      "timestamp": 992153,
+      "value": 3
+    },
+    "997574": {
+      "timestamp": 997574,
+      "value": 205
+    },
+    "1003582": {
+      "timestamp": 1003582,
+      "value": 54
+    },
+    "1009034": {
+      "timestamp": 1009034,
+      "value": 192
+    },
+    "1014471": {
+      "timestamp": 1014471,
+      "value": 8
+    },
+    "1020497": {
+      "timestamp": 1020497,
+      "value": 2
+    },
+    "1025945": {
+      "timestamp": 1025945,
+      "value": 7
+    },
+    "1032973": {
+      "timestamp": 1032973,
+      "value": 175
+    },
+    "1038297": {
+      "timestamp": 1038297,
+      "value": 226
+    },
+    "1043726": {
+      "timestamp": 1043726,
+      "value": 180
+    },
+    "1049152": {
+      "timestamp": 1049152,
+      "value": 67
+    },
+    "1054478": {
+      "timestamp": 1054478,
+      "value": 7
+    },
+    "1061133": {
+      "timestamp": 1061133,
+      "value": 99
+    },
+    "1066971": {
+      "timestamp": 1066971,
+      "value": 234
+    },
+    "1072406": {
+      "timestamp": 1072406,
+      "value": 143
+    },
+    "1077826": {
+      "timestamp": 1077826,
+      "value": 25
+    },
+    "1083254": {
+      "timestamp": 1083254,
+      "value": 238
+    },
+    "1089296": {
+      "timestamp": 1089296,
+      "value": 247
+    },
+    "1094667": {
+      "timestamp": 1094667,
+      "value": 151
+    },
+    "1100157": {
+      "timestamp": 1100157,
+      "value": 108
+    },
+    "1106632": {
+      "timestamp": 1106632,
+      "value": 27
+    },
+    "1112234": {
+      "timestamp": 1112234,
+      "value": 249
+    },
+    "1117675": {
+      "timestamp": 1117675,
+      "value": 183
+    },
+    "1123414": {
+      "timestamp": 1123414,
+      "value": 40
+    },
+    "1128836": {
+      "timestamp": 1128836,
+      "value": 122
+    },
+    "1134253": {
+      "timestamp": 1134253,
+      "value": 244
+    },
+    "1139676": {
+      "timestamp": 1139676,
+      "value": 66
+    },
+    "1145003": {
+      "timestamp": 1145003,
+      "value": 8
+    },
+    "1150430": {
+      "timestamp": 1150430,
+      "value": 102
+    },
+    "1155858": {
+      "timestamp": 1155858,
+      "value": 139
+    },
+    "1161182": {
+      "timestamp": 1161182,
+      "value": 42
+    },
+    "1167647": {
+      "timestamp": 1167647,
+      "value": 128
+    },
+    "1174495": {
+      "timestamp": 1174495,
+      "value": 123
+    },
+    "1179826": {
+      "timestamp": 1179826,
+      "value": 155
+    },
+    "1185248": {
+      "timestamp": 1185248,
+      "value": 165
+    },
+    "1190573": {
+      "timestamp": 1190573,
+      "value": 15
+    },
+    "1196001": {
+      "timestamp": 1196001,
+      "value": 48
+    },
+    "1201330": {
+      "timestamp": 1201330,
+      "value": 239
+    },
+    "1206752": {
+      "timestamp": 1206752,
+      "value": 186
+    },
+    "1212487": {
+      "timestamp": 1212487,
+      "value": 185
+    },
+    "1217852": {
+      "timestamp": 1217852,
+      "value": 51
+    },
+    "1224468": {
+      "timestamp": 1224468,
+      "value": 102
+    },
+    "1230920": {
+      "timestamp": 1230920,
+      "value": 178
+    },
+    "1236252": {
+      "timestamp": 1236252,
+      "value": 202
+    },
+    "1241698": {
+      "timestamp": 1241698,
+      "value": 222
+    },
+    "1247104": {
+      "timestamp": 1247104,
+      "value": 211
+    },
+    "1254882": {
+      "timestamp": 1254882,
+      "value": 225
+    },
+    "1260215": {
+      "timestamp": 1260215,
+      "value": 193
+    },
+    "1265940": {
+      "timestamp": 1265940,
+      "value": 92
+    },
+    "1271402": {
+      "timestamp": 1271402,
+      "value": 111
+    },
+    "1276797": {
+      "timestamp": 1276797,
+      "value": 88
+    },
+    "1282130": {
+      "timestamp": 1282130,
+      "value": 105
+    },
+    "1289802": {
+      "timestamp": 1289802,
+      "value": 116
+    },
+    "1295250": {
+      "timestamp": 1295250,
+      "value": 249
+    },
+    "1300657": {
+      "timestamp": 1300657,
+      "value": 223
+    },
+    "1307006": {
+      "timestamp": 1307006,
+      "value": 229
+    },
+    "1312335": {
+      "timestamp": 1312335,
+      "value": 73
+    },
+    "1318166": {
+      "timestamp": 1318166,
+      "value": 237
+    },
+    "1323514": {
+      "timestamp": 1323514,
+      "value": 103
+    },
+    "1328940": {
+      "timestamp": 1328940,
+      "value": 244
+    },
+    "1334347": {
+      "timestamp": 1334347,
+      "value": 249
+    },
+    "1340087": {
+      "timestamp": 1340087,
+      "value": 178
+    },
+    "1345416": {
+      "timestamp": 1345416,
+      "value": 239
+    },
+    "1351244": {
+      "timestamp": 1351244,
+      "value": 208
+    },
+    "1356711": {
+      "timestamp": 1356711,
+      "value": 10
+    },
+    "1362099": {
+      "timestamp": 1362099,
+      "value": 240
+    },
+    "1367422": {
+      "timestamp": 1367422,
+      "value": 26
+    },
+    "1373259": {
+      "timestamp": 1373259,
+      "value": 127
+    },
+    "1378706": {
+      "timestamp": 1378706,
+      "value": 68
+    },
+    "1384154": {
+      "timestamp": 1384154,
+      "value": 58
+    },
+    "1389543": {
+      "timestamp": 1389543,
+      "value": 169
+    },
+    "1395277": {
+      "timestamp": 1395277,
+      "value": 210
+    },
+    "1401730": {
+      "timestamp": 1401730,
+      "value": 31
+    },
+    "1407156": {
+      "timestamp": 1407156,
+      "value": 10
+    },
+    "1412586": {
+      "timestamp": 1412586,
+      "value": 178
+    },
+    "1418011": {
+      "timestamp": 1418011,
+      "value": 174
+    },
+    "1423438": {
+      "timestamp": 1423438,
+      "value": 205
+    },
+    "1428973": {
+      "timestamp": 1428973,
+      "value": 95
+    },
+    "1434396": {
+      "timestamp": 1434396,
+      "value": 254
+    },
+    "1439829": {
+      "timestamp": 1439829,
+      "value": 76
+    },
+    "1446391": {
+      "timestamp": 1446391,
+      "value": 180
+    },
+    "1451804": {
+      "timestamp": 1451804,
+      "value": 225
+    },
+    "1457138": {
+      "timestamp": 1457138,
+      "value": 108
+    },
+    "1463068": {
+      "timestamp": 1463068,
+      "value": 3
+    },
+    "1469008": {
+      "timestamp": 1469008,
+      "value": 192
+    },
+    "1474342": {
+      "timestamp": 1474342,
+      "value": 66
+    },
+    "1479759": {
+      "timestamp": 1479759,
+      "value": 201
+    },
+    "1485403": {
+      "timestamp": 1485403,
+      "value": 200
+    },
+    "1490867": {
+      "timestamp": 1490867,
+      "value": 88
+    },
+    "1496247": {
+      "timestamp": 1496247,
+      "value": 53
+    },
+    "1501572": {
+      "timestamp": 1501572,
+      "value": 62
+    },
+    "1506902": {
+      "timestamp": 1506902,
+      "value": 81
+    },
+    "1512232": {
+      "timestamp": 1512232,
+      "value": 158
+    },
+    "1517650": {
+      "timestamp": 1517650,
+      "value": 133
+    },
+    "1523125": {
+      "timestamp": 1523125,
+      "value": 208
+    },
+    "1528503": {
+      "timestamp": 1528503,
+      "value": 65
+    },
+    "1533834": {
+      "timestamp": 1533834,
+      "value": 186
+    },
+    "1539777": {
+      "timestamp": 1539777,
+      "value": 247
+    },
+    "1545638": {
+      "timestamp": 1545638,
+      "value": 184
+    },
+    "1551442": {
+      "timestamp": 1551442,
+      "value": 47
+    },
+    "1556766": {
+      "timestamp": 1556766,
+      "value": 191
+    },
+    "1562503": {
+      "timestamp": 1562503,
+      "value": 156
+    },
+    "1567840": {
+      "timestamp": 1567840,
+      "value": 103
+    },
+    "1573664": {
+      "timestamp": 1573664,
+      "value": 194
+    },
+    "1579446": {
+      "timestamp": 1579446,
+      "value": 31
+    },
+    "1584827": {
+      "timestamp": 1584827,
+      "value": 45
+    },
+    "1590764": {
+      "timestamp": 1590764,
+      "value": 115
+    },
+    "1596103": {
+      "timestamp": 1596103,
+      "value": 57
+    },
+    "1601524": {
+      "timestamp": 1601524,
+      "value": 144
+    },
+    "1606946": {
+      "timestamp": 1606946,
+      "value": 78
+    },
+    "1612373": {
+      "timestamp": 1612373,
+      "value": 43
+    },
+    "1617800": {
+      "timestamp": 1617800,
+      "value": 27
+    },
+    "1623235": {
+      "timestamp": 1623235,
+      "value": 104
+    },
+    "1629167": {
+      "timestamp": 1629167,
+      "value": 132
+    },
+    "1634504": {
+      "timestamp": 1634504,
+      "value": 197
+    },
+    "1640432": {
+      "timestamp": 1640432,
+      "value": 198
+    },
+    "1645859": {
+      "timestamp": 1645859,
+      "value": 42
+    },
+    "1651809": {
+      "timestamp": 1651809,
+      "value": 43
+    },
+    "1657361": {
+      "timestamp": 1657361,
+      "value": 181
+    },
+    "1663163": {
+      "timestamp": 1663163,
+      "value": 219
+    },
+    "1669851": {
+      "timestamp": 1669851,
+      "value": 72
+    },
+    "1676888": {
+      "timestamp": 1676888,
+      "value": 25
+    },
+    "1682335": {
+      "timestamp": 1682335,
+      "value": 112
+    },
+    "1687742": {
+      "timestamp": 1687742,
+      "value": 145
+    },
+    "1693186": {
+      "timestamp": 1693186,
+      "value": 12
+    },
+    "1698598": {
+      "timestamp": 1698598,
+      "value": 22
+    },
+    "1703927": {
+      "timestamp": 1703927,
+      "value": 118
+    },
+    "1709350": {
+      "timestamp": 1709350,
+      "value": 135
+    },
+    "1714877": {
+      "timestamp": 1714877,
+      "value": 129
+    },
+    "1720919": {
+      "timestamp": 1720919,
+      "value": 232
+    },
+    "1726255": {
+      "timestamp": 1726255,
+      "value": 124
+    },
+    "1732186": {
+      "timestamp": 1732186,
+      "value": 179
+    },
+    "1737647": {
+      "timestamp": 1737647,
+      "value": 246
+    },
+    "1743185": {
+      "timestamp": 1743185,
+      "value": 117
+    },
+    "1748917": {
+      "timestamp": 1748917,
+      "value": 107
+    },
+    "1756702": {
+      "timestamp": 1756702,
+      "value": 186
+    },
+    "1762515": {
+      "timestamp": 1762515,
+      "value": 52
+    },
+    "1767963": {
+      "timestamp": 1767963,
+      "value": 3
+    },
+    "1773352": {
+      "timestamp": 1773352,
+      "value": 61
+    },
+    "1779188": {
+      "timestamp": 1779188,
+      "value": 64
+    },
+    "1784521": {
+      "timestamp": 1784521,
+      "value": 89
+    },
+    "1789941": {
+      "timestamp": 1789941,
+      "value": 205
+    },
+    "1795366": {
+      "timestamp": 1795366,
+      "value": 195
+    },
+    "1800796": {
+      "timestamp": 1800796,
+      "value": 212
+    },
+    "1806121": {
+      "timestamp": 1806121,
+      "value": 107
+    },
+    "1811549": {
+      "timestamp": 1811549,
+      "value": 179
+    },
+    "1816883": {
+      "timestamp": 1816883,
+      "value": 26
+    },
+    "1822742": {
+      "timestamp": 1822742,
+      "value": 240
+    },
+    "1828138": {
+      "timestamp": 1828138,
+      "value": 169
+    },
+    "1834799": {
+      "timestamp": 1834799,
+      "value": 3
+    },
+    "1840125": {
+      "timestamp": 1840125,
+      "value": 243
+    },
+    "1846467": {
+      "timestamp": 1846467,
+      "value": 139
+    },
+    "1851931": {
+      "timestamp": 1851931,
+      "value": 24
+    },
+    "1857677": {
+      "timestamp": 1857677,
+      "value": 73
+    },
+    "1863058": {
+      "timestamp": 1863058,
+      "value": 49
+    },
+    "1868498": {
+      "timestamp": 1868498,
+      "value": 85
+    },
+    "1873930": {
+      "timestamp": 1873930,
+      "value": 244
+    },
+    "1879346": {
+      "timestamp": 1879346,
+      "value": 151
+    },
+    "1884767": {
+      "timestamp": 1884767,
+      "value": 176
+    },
+    "1890194": {
+      "timestamp": 1890194,
+      "value": 170
+    },
+    "1896029": {
+      "timestamp": 1896029,
+      "value": 129
+    },
+    "1901376": {
+      "timestamp": 1901376,
+      "value": 67
+    },
+    "1906824": {
+      "timestamp": 1906824,
+      "value": 80
+    },
+    "1912830": {
+      "timestamp": 1912830,
+      "value": 104
+    },
+    "1918253": {
+      "timestamp": 1918253,
+      "value": 213
+    },
+    "1924395": {
+      "timestamp": 1924395,
+      "value": 246
+    },
+    "1929825": {
+      "timestamp": 1929825,
+      "value": 54
+    },
+    "1935259": {
+      "timestamp": 1935259,
+      "value": 87
+    },
+    "1940581": {
+      "timestamp": 1940581,
+      "value": 17
+    },
+    "1946004": {
+      "timestamp": 1946004,
+      "value": 39
+    },
+    "1951335": {
+      "timestamp": 1951335,
+      "value": 131
+    },
+    "1957295": {
+      "timestamp": 1957295,
+      "value": 255
+    },
+    "1962697": {
+      "timestamp": 1962697,
+      "value": 103
+    },
+    "1968123": {
+      "timestamp": 1968123,
+      "value": 99
+    },
+    "1973448": {
+      "timestamp": 1973448,
+      "value": 245
+    },
+    "1979285": {
+      "timestamp": 1979285,
+      "value": 40
+    },
+    "1984739": {
+      "timestamp": 1984739,
+      "value": 115
+    },
+    "1990145": {
+      "timestamp": 1990145,
+      "value": 36
+    },
+    "1995875": {
+      "timestamp": 1995875,
+      "value": 175
+    },
+    "2002255": {
+      "timestamp": 2002255,
+      "value": 121
+    },
+    "2007659": {
+      "timestamp": 2007659,
+      "value": 74
+    },
+    "2013898": {
+      "timestamp": 2013898,
+      "value": 82
+    },
+    "2019324": {
+      "timestamp": 2019324,
+      "value": 200
+    },
+    "2024650": {
+      "timestamp": 2024650,
+      "value": 98
+    },
+    "2030078": {
+      "timestamp": 2030078,
+      "value": 48
+    },
+    "2035514": {
+      "timestamp": 2035514,
+      "value": 86
+    },
+    "2040859": {
+      "timestamp": 2040859,
+      "value": 148
+    },
+    "2046565": {
+      "timestamp": 2046565,
+      "value": 210
+    },
+    "2051890": {
+      "timestamp": 2051890,
+      "value": 240
+    },
+    "2057747": {
+      "timestamp": 2057747,
+      "value": 31
+    },
+    "2063119": {
+      "timestamp": 2063119,
+      "value": 84
+    },
+    "2068612": {
+      "timestamp": 2068612,
+      "value": 127
+    },
+    "2074010": {
+      "timestamp": 2074010,
+      "value": 20
+    },
+    "2079639": {
+      "timestamp": 2079639,
+      "value": 6
+    },
+    "2085274": {
+      "timestamp": 2085274,
+      "value": 12
+    },
+    "2090712": {
+      "timestamp": 2090712,
+      "value": 221
+    },
+    "2096129": {
+      "timestamp": 2096129,
+      "value": 87
+    },
+    "2101758": {
+      "timestamp": 2101758,
+      "value": 170
+    },
+    "2108109": {
+      "timestamp": 2108109,
+      "value": 157
+    },
+    "2113434": {
+      "timestamp": 2113434,
+      "value": 146
+    },
+    "2118884": {
+      "timestamp": 2118884,
+      "value": 205
+    },
+    "2124634": {
+      "timestamp": 2124634,
+      "value": 243
+    },
+    "2130034": {
+      "timestamp": 2130034,
+      "value": 90
+    },
+    "2136188": {
+      "timestamp": 2136188,
+      "value": 136
+    },
+    "2141595": {
+      "timestamp": 2141595,
+      "value": 165
+    },
+    "2147040": {
+      "timestamp": 2147040,
+      "value": 88
+    },
+    "2152455": {
+      "timestamp": 2152455,
+      "value": 118
+    },
+    "2157876": {
+      "timestamp": 2157876,
+      "value": 253
+    },
+    "2165661": {
+      "timestamp": 2165661,
+      "value": 34
+    },
+    "2170995": {
+      "timestamp": 2170995,
+      "value": 186
+    },
+    "2176442": {
+      "timestamp": 2176442,
+      "value": 86
+    },
+    "2181942": {
+      "timestamp": 2181942,
+      "value": 176
+    },
+    "2187675": {
+      "timestamp": 2187675,
+      "value": 138
+    },
+    "2193446": {
+      "timestamp": 2193446,
+      "value": 43
+    },
+    "2199571": {
+      "timestamp": 2199571,
+      "value": 249
+    },
+    "2204983": {
+      "timestamp": 2204983,
+      "value": 114
+    },
+    "2210441": {
+      "timestamp": 2210441,
+      "value": 19
+    },
+    "2215837": {
+      "timestamp": 2215837,
+      "value": 60
+    },
+    "2221167": {
+      "timestamp": 2221167,
+      "value": 18
+    },
+    "2227205": {
+      "timestamp": 2227205,
+      "value": 140
+    },
+    "2232529": {
+      "timestamp": 2232529,
+      "value": 166
+    },
+    "2238366": {
+      "timestamp": 2238366,
+      "value": 111
+    },
+    "2243691": {
+      "timestamp": 2243691,
+      "value": 35
+    },
+    "2249119": {
+      "timestamp": 2249119,
+      "value": 108
+    },
+    "2254462": {
+      "timestamp": 2254462,
+      "value": 30
+    },
+    "2260281": {
+      "timestamp": 2260281,
+      "value": 18
+    },
+    "2266423": {
+      "timestamp": 2266423,
+      "value": 188
+    },
+    "2271750": {
+      "timestamp": 2271750,
+      "value": 43
+    },
+    "2277587": {
+      "timestamp": 2277587,
+      "value": 169
+    },
+    "2282912": {
+      "timestamp": 2282912,
+      "value": 209
+    },
+    "2288750": {
+      "timestamp": 2288750,
+      "value": 60
+    },
+    "2294177": {
+      "timestamp": 2294177,
+      "value": 56
+    },
+    "2300013": {
+      "timestamp": 2300013,
+      "value": 1
+    },
+    "2305340": {
+      "timestamp": 2305340,
+      "value": 81
+    },
+    "2310764": {
+      "timestamp": 2310764,
+      "value": 44
+    },
+    "2317422": {
+      "timestamp": 2317422,
+      "value": 68
+    },
+    "2322747": {
+      "timestamp": 2322747,
+      "value": 206
+    },
+    "2328174": {
+      "timestamp": 2328174,
+      "value": 98
+    },
+    "2333911": {
+      "timestamp": 2333911,
+      "value": 219
+    },
+    "2339256": {
+      "timestamp": 2339256,
+      "value": 100
+    },
+    "2344807": {
+      "timestamp": 2344807,
+      "value": 220
+    },
+    "2350220": {
+      "timestamp": 2350220,
+      "value": 144
+    },
+    "2355618": {
+      "timestamp": 2355618,
+      "value": 48
+    },
+    "2360963": {
+      "timestamp": 2360963,
+      "value": 15
+    },
+    "2366473": {
+      "timestamp": 2366473,
+      "value": 8
+    },
+    "2371808": {
+      "timestamp": 2371808,
+      "value": 252
+    },
+    "2377658": {
+      "timestamp": 2377658,
+      "value": 77
+    },
+    "2383593": {
+      "timestamp": 2383593,
+      "value": 92
+    },
+    "2389009": {
+      "timestamp": 2389009,
+      "value": 155
+    },
+    "2394764": {
+      "timestamp": 2394764,
+      "value": 20
+    },
+    "2400170": {
+      "timestamp": 2400170,
+      "value": 16
+    },
+    "2405899": {
+      "timestamp": 2405899,
+      "value": 11
+    },
+    "2411579": {
+      "timestamp": 2411579,
+      "value": 203
+    },
+    "2417581": {
+      "timestamp": 2417581,
+      "value": 115
+    },
+    "2423000": {
+      "timestamp": 2423000,
+      "value": 236
+    },
+    "2428735": {
+      "timestamp": 2428735,
+      "value": 49
+    },
+    "2434163": {
+      "timestamp": 2434163,
+      "value": 78
+    },
+    "2439487": {
+      "timestamp": 2439487,
+      "value": 40
+    },
+    "2444921": {
+      "timestamp": 2444921,
+      "value": 230
+    },
+    "2450266": {
+      "timestamp": 2450266,
+      "value": 185
+    },
+    "2458641": {
+      "timestamp": 2458641,
+      "value": 198
+    },
+    "2463967": {
+      "timestamp": 2463967,
+      "value": 149
+    },
+    "2469389": {
+      "timestamp": 2469389,
+      "value": 149
+    },
+    "2474830": {
+      "timestamp": 2474830,
+      "value": 182
+    },
+    "2480251": {
+      "timestamp": 2480251,
+      "value": 212
+    },
+    "2485989": {
+      "timestamp": 2485989,
+      "value": 53
+    },
+    "2491406": {
+      "timestamp": 2491406,
+      "value": 94
+    },
+    "2496732": {
+      "timestamp": 2496732,
+      "value": 103
+    },
+    "2502172": {
+      "timestamp": 2502172,
+      "value": 249
+    },
+    "2507723": {
+      "timestamp": 2507723,
+      "value": 62
+    },
+    "2513116": {
+      "timestamp": 2513116,
+      "value": 161
+    },
+    "2518486": {
+      "timestamp": 2518486,
+      "value": 46
+    },
+    "2523868": {
+      "timestamp": 2523868,
+      "value": 95
+    },
+    "2529294": {
+      "timestamp": 2529294,
+      "value": 222
+    },
+    "2534755": {
+      "timestamp": 2534755,
+      "value": 251
+    },
+    "2540253": {
+      "timestamp": 2540253,
+      "value": 82
+    },
+    "2545680": {
+      "timestamp": 2545680,
+      "value": 243
+    },
+    "2551516": {
+      "timestamp": 2551516,
+      "value": 219
+    },
+    "2556855": {
+      "timestamp": 2556855,
+      "value": 227
+    },
+    "2562303": {
+      "timestamp": 2562303,
+      "value": 254
+    },
+    "2568619": {
+      "timestamp": 2568619,
+      "value": 17
+    },
+    "2573949": {
+      "timestamp": 2573949,
+      "value": 96
+    },
+    "2579368": {
+      "timestamp": 2579368,
+      "value": 178
+    },
+    "2584900": {
+      "timestamp": 2584900,
+      "value": 223
+    },
+    "2590363": {
+      "timestamp": 2590363,
+      "value": 209
+    },
+    "2595756": {
+      "timestamp": 2595756,
+      "value": 206
+    },
+    "2602105": {
+      "timestamp": 2602105,
+      "value": 30
+    },
+    "2607532": {
+      "timestamp": 2607532,
+      "value": 67
+    },
+    "2612974": {
+      "timestamp": 2612974,
+      "value": 106
+    },
+    "2618386": {
+      "timestamp": 2618386,
+      "value": 36
+    },
+    "2624224": {
+      "timestamp": 2624224,
+      "value": 236
+    },
+    "2629665": {
+      "timestamp": 2629665,
+      "value": 251
+    },
+    "2635078": {
+      "timestamp": 2635078,
+      "value": 157
+    },
+    "2640506": {
+      "timestamp": 2640506,
+      "value": 56
+    },
+    "2646042": {
+      "timestamp": 2646042,
+      "value": 182
+    },
+    "2651770": {
+      "timestamp": 2651770,
+      "value": 34
+    },
+    "2657095": {
+      "timestamp": 2657095,
+      "value": 122
+    },
+    "2662862": {
+      "timestamp": 2662862,
+      "value": 25
+    },
+    "2668273": {
+      "timestamp": 2668273,
+      "value": 189
+    },
+    "2674132": {
+      "timestamp": 2674132,
+      "value": 121
+    },
+    "2680033": {
+      "timestamp": 2680033,
+      "value": 155
+    },
+    "2685357": {
+      "timestamp": 2685357,
+      "value": 225
+    },
+    "2690684": {
+      "timestamp": 2690684,
+      "value": 206
+    },
+    "2696111": {
+      "timestamp": 2696111,
+      "value": 99
+    },
+    "2703220": {
+      "timestamp": 2703220,
+      "value": 221
+    },
+    "2708602": {
+      "timestamp": 2708602,
+      "value": 75
+    },
+    "2714030": {
+      "timestamp": 2714030,
+      "value": 28
+    },
+    "2719357": {
+      "timestamp": 2719357,
+      "value": 229
+    },
+    "2724805": {
+      "timestamp": 2724805,
+      "value": 153
+    },
+    "2730356": {
+      "timestamp": 2730356,
+      "value": 133
+    },
+    "2735740": {
+      "timestamp": 2735740,
+      "value": 157
+    },
+    "2741066": {
+      "timestamp": 2741066,
+      "value": 206
+    },
+    "2747011": {
+      "timestamp": 2747011,
+      "value": 110
+    },
+    "2752868": {
+      "timestamp": 2752868,
+      "value": 95
+    },
+    "2758274": {
+      "timestamp": 2758274,
+      "value": 9
+    },
+    "2763697": {
+      "timestamp": 2763697,
+      "value": 97
+    },
+    "2769432": {
+      "timestamp": 2769432,
+      "value": 231
+    },
+    "2774762": {
+      "timestamp": 2774762,
+      "value": 49
+    },
+    "2780184": {
+      "timestamp": 2780184,
+      "value": 115
+    },
+    "2786681": {
+      "timestamp": 2786681,
+      "value": 249
+    },
+    "2792489": {
+      "timestamp": 2792489,
+      "value": 69
+    },
+    "2797900": {
+      "timestamp": 2797900,
+      "value": 39
+    },
+    "2803847": {
+      "timestamp": 2803847,
+      "value": 171
+    },
+    "2809296": {
+      "timestamp": 2809296,
+      "value": 7
+    },
+    "2814694": {
+      "timestamp": 2814694,
+      "value": 150
+    },
+    "2821657": {
+      "timestamp": 2821657,
+      "value": 153
+    },
+    "2826982": {
+      "timestamp": 2826982,
+      "value": 50
+    },
+    "2832922": {
+      "timestamp": 2832922,
+      "value": 198
+    },
+    "2838247": {
+      "timestamp": 2838247,
+      "value": 14
+    },
+    "2843675": {
+      "timestamp": 2843675,
+      "value": 193
+    },
+    "2849409": {
+      "timestamp": 2849409,
+      "value": 201
+    },
+    "2856998": {
+      "timestamp": 2856998,
+      "value": 233
+    },
+    "2862414": {
+      "timestamp": 2862414,
+      "value": 210
+    },
+    "2868149": {
+      "timestamp": 2868149,
+      "value": 221
+    },
+    "2873907": {
+      "timestamp": 2873907,
+      "value": 134
+    },
+    "2880230": {
+      "timestamp": 2880230,
+      "value": 145
+    },
+    "2885575": {
+      "timestamp": 2885575,
+      "value": 134
+    },
+    "2893694": {
+      "timestamp": 2893694,
+      "value": 207
+    },
+    "2899076": {
+      "timestamp": 2899076,
+      "value": 251
+    },
+    "2904400": {
+      "timestamp": 2904400,
+      "value": 21
+    },
+    "2909827": {
+      "timestamp": 2909827,
+      "value": 90
+    },
+    "2916309": {
+      "timestamp": 2916309,
+      "value": 10
+    },
+    "2921706": {
+      "timestamp": 2921706,
+      "value": 90
+    },
+    "2927131": {
+      "timestamp": 2927131,
+      "value": 119
+    },
+    "2933312": {
+      "timestamp": 2933312,
+      "value": 65
+    },
+    "2938934": {
+      "timestamp": 2938934,
+      "value": 103
+    },
+    "2944380": {
+      "timestamp": 2944380,
+      "value": 209
+    },
+    "2950276": {
+      "timestamp": 2950276,
+      "value": 224
+    },
+    "2955703": {
+      "timestamp": 2955703,
+      "value": 66
+    },
+    "2961029": {
+      "timestamp": 2961029,
+      "value": 168
+    },
+    "2966375": {
+      "timestamp": 2966375,
+      "value": 214
+    },
+    "2973008": {
+      "timestamp": 2973008,
+      "value": 173
+    },
+    "2978436": {
+      "timestamp": 2978436,
+      "value": 14
+    },
+    "2983763": {
+      "timestamp": 2983763,
+      "value": 77
+    },
+    "2989502": {
+      "timestamp": 2989502,
+      "value": 236
+    },
+    "2994845": {
+      "timestamp": 2994845,
+      "value": 64
+    },
+    "3000255": {
+      "timestamp": 3000255,
+      "value": 111
+    },
+    "3005677": {
+      "timestamp": 3005677,
+      "value": 19
+    },
+    "3011002": {
+      "timestamp": 3011002,
+      "value": 113
+    },
+    "3018693": {
+      "timestamp": 3018693,
+      "value": 145
+    },
+    "3024141": {
+      "timestamp": 3024141,
+      "value": 248
+    },
+    "3030070": {
+      "timestamp": 3030070,
+      "value": 11
+    },
+    "3035514": {
+      "timestamp": 3035514,
+      "value": 241
+    },
+    "3040915": {
+      "timestamp": 3040915,
+      "value": 53
+    },
+    "3046344": {
+      "timestamp": 3046344,
+      "value": 34
+    },
+    "3051760": {
+      "timestamp": 3051760,
+      "value": 106
+    },
+    "3057186": {
+      "timestamp": 3057186,
+      "value": 138
+    },
+    "3062516": {
+      "timestamp": 3062516,
+      "value": 134
+    },
+    "3068040": {
+      "timestamp": 3068040,
+      "value": 101
+    },
+    "3073399": {
+      "timestamp": 3073399,
+      "value": 31
+    },
+    "3078793": {
+      "timestamp": 3078793,
+      "value": 193
+    },
+    "3084220": {
+      "timestamp": 3084220,
+      "value": 68
+    },
+    "3089648": {
+      "timestamp": 3089648,
+      "value": 207
+    },
+    "3095075": {
+      "timestamp": 3095075,
+      "value": 215
+    },
+    "3100409": {
+      "timestamp": 3100409,
+      "value": 108
+    },
+    "3105828": {
+      "timestamp": 3105828,
+      "value": 212
+    },
+    "3111677": {
+      "timestamp": 3111677,
+      "value": 219
+    },
+    "3118130": {
+      "timestamp": 3118130,
+      "value": 248
+    },
+    "3124363": {
+      "timestamp": 3124363,
+      "value": 65
+    },
+    "3129804": {
+      "timestamp": 3129804,
+      "value": 41
+    },
+    "3135559": {
+      "timestamp": 3135559,
+      "value": 63
+    },
+    "3140952": {
+      "timestamp": 3140952,
+      "value": 169
+    },
+    "3146277": {
+      "timestamp": 3146277,
+      "value": 111
+    },
+    "3151704": {
+      "timestamp": 3151704,
+      "value": 49
+    },
+    "3157041": {
+      "timestamp": 3157041,
+      "value": 60
+    },
+    "3162457": {
+      "timestamp": 3162457,
+      "value": 68
+    },
+    "3167884": {
+      "timestamp": 3167884,
+      "value": 0
+    },
+    "3173209": {
+      "timestamp": 3173209,
+      "value": 210
+    },
+    "3179044": {
+      "timestamp": 3179044,
+      "value": 179
+    },
+    "3184384": {
+      "timestamp": 3184384,
+      "value": 247
+    },
+    "3189798": {
+      "timestamp": 3189798,
+      "value": 228
+    },
+    "3195224": {
+      "timestamp": 3195224,
+      "value": 72
+    },
+    "3200551": {
+      "timestamp": 3200551,
+      "value": 190
+    },
+    "3205876": {
+      "timestamp": 3205876,
+      "value": 54
+    },
+    "3211312": {
+      "timestamp": 3211312,
+      "value": 234
+    },
+    "3216729": {
+      "timestamp": 3216729,
+      "value": 33
+    },
+    "3227176": {
+      "timestamp": 3227176,
+      "value": 189
+    },
+    "3232501": {
+      "timestamp": 3232501,
+      "value": 74
+    },
+    "3237928": {
+      "timestamp": 3237928,
+      "value": 14
+    },
+    "3243688": {
+      "timestamp": 3243688,
+      "value": 158
+    },
+    "3249092": {
+      "timestamp": 3249092,
+      "value": 72
+    },
+    "3255437": {
+      "timestamp": 3255437,
+      "value": 65
+    },
+    "3260769": {
+      "timestamp": 3260769,
+      "value": 117
+    },
+    "3266199": {
+      "timestamp": 3266199,
+      "value": 19
+    },
+    "3271617": {
+      "timestamp": 3271617,
+      "value": 162
+    },
+    "3277501": {
+      "timestamp": 3277501,
+      "value": 143
+    },
+    "3282904": {
+      "timestamp": 3282904,
+      "value": 79
+    },
+    "3288720": {
+      "timestamp": 3288720,
+      "value": 157
+    },
+    "3294149": {
+      "timestamp": 3294149,
+      "value": 60
+    },
+    "3300191": {
+      "timestamp": 3300191,
+      "value": 201
+    },
+    "3305519": {
+      "timestamp": 3305519,
+      "value": 6
+    },
+    "3311147": {
+      "timestamp": 3311147,
+      "value": 47
+    },
+    "3317024": {
+      "timestamp": 3317024,
+      "value": 32
+    },
+    "3322832": {
+      "timestamp": 3322832,
+      "value": 25
+    },
+    "3328247": {
+      "timestamp": 3328247,
+      "value": 177
+    },
+    "3334717": {
+      "timestamp": 3334717,
+      "value": 182
+    },
+    "3341560": {
+      "timestamp": 3341560,
+      "value": 147
+    },
+    "3348017": {
+      "timestamp": 3348017,
+      "value": 232
+    },
+    "3353360": {
+      "timestamp": 3353360,
+      "value": 187
+    },
+    "3358764": {
+      "timestamp": 3358764,
+      "value": 98
+    },
+    "3364601": {
+      "timestamp": 3364601,
+      "value": 109
+    },
+    "3369927": {
+      "timestamp": 3369927,
+      "value": 78
+    },
+    "3375354": {
+      "timestamp": 3375354,
+      "value": 116
+    },
+    "3381011": {
+      "timestamp": 3381011,
+      "value": 64
+    },
+    "3388769": {
+      "timestamp": 3388769,
+      "value": 61
+    },
+    "3394094": {
+      "timestamp": 3394094,
+      "value": 127
+    },
+    "3399829": {
+      "timestamp": 3399829,
+      "value": 215
+    },
+    "3406088": {
+      "timestamp": 3406088,
+      "value": 233
+    },
+    "3411526": {
+      "timestamp": 3411526,
+      "value": 113
+    },
+    "3417237": {
+      "timestamp": 3417237,
+      "value": 34
+    },
+    "3422664": {
+      "timestamp": 3422664,
+      "value": 122
+    },
+    "3427989": {
+      "timestamp": 3427989,
+      "value": 217
+    },
+    "3433737": {
+      "timestamp": 3433737,
+      "value": 55
+    },
+    "3439597": {
+      "timestamp": 3439597,
+      "value": 107
+    },
+    "3444986": {
+      "timestamp": 3444986,
+      "value": 128
+    },
+    "3450318": {
+      "timestamp": 3450318,
+      "value": 245
+    },
+    "3456046": {
+      "timestamp": 3456046,
+      "value": 174
+    },
+    "3461797": {
+      "timestamp": 3461797,
+      "value": 184
+    },
+    "3467210": {
+      "timestamp": 3467210,
+      "value": 129
+    },
+    "3472637": {
+      "timestamp": 3472637,
+      "value": 109
+    },
+    "3478064": {
+      "timestamp": 3478064,
+      "value": 201
+    },
+    "3484107": {
+      "timestamp": 3484107,
+      "value": 160
+    },
+    "3489549": {
+      "timestamp": 3489549,
+      "value": 224
+    },
+    "3494997": {
+      "timestamp": 3494997,
+      "value": 153
+    },
+    "3500389": {
+      "timestamp": 3500389,
+      "value": 141
+    },
+    "3506239": {
+      "timestamp": 3506239,
+      "value": 201
+    },
+    "3512063": {
+      "timestamp": 3512063,
+      "value": 195
+    },
+    "3517405": {
+      "timestamp": 3517405,
+      "value": 74
+    },
+    "3522956": {
+      "timestamp": 3522956,
+      "value": 132
+    },
+    "3528886": {
+      "timestamp": 3528886,
+      "value": 234
+    },
+    "3534796": {
+      "timestamp": 3534796,
+      "value": 61
+    },
+    "3540130": {
+      "timestamp": 3540130,
+      "value": 153
+    },
+    "3545570": {
+      "timestamp": 3545570,
+      "value": 59
+    },
+    "3550975": {
+      "timestamp": 3550975,
+      "value": 74
+    },
+    "3556299": {
+      "timestamp": 3556299,
+      "value": 83
+    },
+    "3562137": {
+      "timestamp": 3562137,
+      "value": 117
+    },
+    "3567673": {
+      "timestamp": 3567673,
+      "value": 56
+    },
+    "3573017": {
+      "timestamp": 3573017,
+      "value": 1
+    },
+    "3578828": {
+      "timestamp": 3578828,
+      "value": 185
+    },
+    "3584257": {
+      "timestamp": 3584257,
+      "value": 111
+    },
+    "3589684": {
+      "timestamp": 3589684,
+      "value": 174
+    },
+    "3595121": {
+      "timestamp": 3595121,
+      "value": 139
+    },
+    "3601083": {
+      "timestamp": 3601083,
+      "value": 49
+    },
+    "3607401": {
+      "timestamp": 3607401,
+      "value": 252
+    },
+    "3612731": {
+      "timestamp": 3612731,
+      "value": 56
+    },
+    "3621538": {
+      "timestamp": 3621538,
+      "value": 223
+    },
+    "3626960": {
+      "timestamp": 3626960,
+      "value": 221
+    },
+    "3632394": {
+      "timestamp": 3632394,
+      "value": 162
+    },
+    "3638155": {
+      "timestamp": 3638155,
+      "value": 99
+    },
+    "3644366": {
+      "timestamp": 3644366,
+      "value": 105
+    },
+    "3649705": {
+      "timestamp": 3649705,
+      "value": 240
+    },
+    "3655120": {
+      "timestamp": 3655120,
+      "value": 86
+    },
+    "3660548": {
+      "timestamp": 3660548,
+      "value": 177
+    },
+    "3666897": {
+      "timestamp": 3666897,
+      "value": 72
+    },
+    "3672222": {
+      "timestamp": 3672222,
+      "value": 109
+    },
+    "3677649": {
+      "timestamp": 3677649,
+      "value": 109
+    },
+    "3683488": {
+      "timestamp": 3683488,
+      "value": 202
+    },
+    "3689165": {
+      "timestamp": 3689165,
+      "value": 162
+    },
+    "3694546": {
+      "timestamp": 3694546,
+      "value": 175
+    },
+    "3699974": {
+      "timestamp": 3699974,
+      "value": 70
+    },
+    "3705306": {
+      "timestamp": 3705306,
+      "value": 211
+    },
+    "3712876": {
+      "timestamp": 3712876,
+      "value": 220
+    },
+    "3720657": {
+      "timestamp": 3720657,
+      "value": 123
+    },
+    "3725989": {
+      "timestamp": 3725989,
+      "value": 90
+    },
+    "3732740": {
+      "timestamp": 3732740,
+      "value": 31
+    },
+    "3738170": {
+      "timestamp": 3738170,
+      "value": 89
+    },
+    "3743598": {
+      "timestamp": 3743598,
+      "value": 114
+    },
+    "3748936": {
+      "timestamp": 3748936,
+      "value": 49
+    },
+    "3754350": {
+      "timestamp": 3754350,
+      "value": 177
+    },
+    "3760191": {
+      "timestamp": 3760191,
+      "value": 237
+    },
+    "3765612": {
+      "timestamp": 3765612,
+      "value": 184
+    },
+    "3771451": {
+      "timestamp": 3771451,
+      "value": 38
+    },
+    "3776879": {
+      "timestamp": 3776879,
+      "value": 232
+    },
+    "3782722": {
+      "timestamp": 3782722,
+      "value": 223
+    },
+    "3788148": {
+      "timestamp": 3788148,
+      "value": 159
+    },
+    "3793671": {
+      "timestamp": 3793671,
+      "value": 184
+    },
+    "3799009": {
+      "timestamp": 3799009,
+      "value": 71
+    },
+    "3804425": {
+      "timestamp": 3804425,
+      "value": 45
+    },
+    "3811900": {
+      "timestamp": 3811900,
+      "value": 254
+    },
+    "3817234": {
+      "timestamp": 3817234,
+      "value": 217
+    },
+    "3823163": {
+      "timestamp": 3823163,
+      "value": 126
+    },
+    "3828641": {
+      "timestamp": 3828641,
+      "value": 249
+    },
+    "3834634": {
+      "timestamp": 3834634,
+      "value": 169
+    },
+    "3841290": {
+      "timestamp": 3841290,
+      "value": 238
+    },
+    "3847348": {
+      "timestamp": 3847348,
+      "value": 173
+    },
+    "3852760": {
+      "timestamp": 3852760,
+      "value": 149
+    },
+    "3858187": {
+      "timestamp": 3858187,
+      "value": 40
+    },
+    "3863512": {
+      "timestamp": 3863512,
+      "value": 101
+    },
+    "3869347": {
+      "timestamp": 3869347,
+      "value": 3
+    },
+    "3874674": {
+      "timestamp": 3874674,
+      "value": 80
+    },
+    "3880143": {
+      "timestamp": 3880143,
+      "value": 45
+    },
+    "3885530": {
+      "timestamp": 3885530,
+      "value": 24
+    },
+    "3890954": {
+      "timestamp": 3890954,
+      "value": 57
+    },
+    "3896281": {
+      "timestamp": 3896281,
+      "value": 233
+    },
+    "3901624": {
+      "timestamp": 3901624,
+      "value": 114
+    },
+    "3907544": {
+      "timestamp": 3907544,
+      "value": 242
+    },
+    "3912972": {
+      "timestamp": 3912972,
+      "value": 178
+    },
+    "3918810": {
+      "timestamp": 3918810,
+      "value": 23
+    },
+    "3924145": {
+      "timestamp": 3924145,
+      "value": 21
+    },
+    "3929578": {
+      "timestamp": 3929578,
+      "value": 107
+    },
+    "3934994": {
+      "timestamp": 3934994,
+      "value": 87
+    },
+    "3940417": {
+      "timestamp": 3940417,
+      "value": 186
+    },
+    "3945750": {
+      "timestamp": 3945750,
+      "value": 124
+    },
+    "3951579": {
+      "timestamp": 3951579,
+      "value": 209
+    },
+    "3956922": {
+      "timestamp": 3956922,
+      "value": 15
+    },
+    "3963558": {
+      "timestamp": 3963558,
+      "value": 226
+    },
+    "3969294": {
+      "timestamp": 3969294,
+      "value": 25
+    },
+    "3974625": {
+      "timestamp": 3974625,
+      "value": 206
+    },
+    "3980047": {
+      "timestamp": 3980047,
+      "value": 217
+    },
+    "3985390": {
+      "timestamp": 3985390,
+      "value": 82
+    },
+    "3990804": {
+      "timestamp": 3990804,
+      "value": 82
+    },
+    "3996227": {
+      "timestamp": 3996227,
+      "value": 16
+    },
+    "4001567": {
+      "timestamp": 4001567,
+      "value": 158
+    },
+    "4007388": {
+      "timestamp": 4007388,
+      "value": 217
+    },
+    "4012733": {
+      "timestamp": 4012733,
+      "value": 2
+    },
+    "4018695": {
+      "timestamp": 4018695,
+      "value": 254
+    },
+    "4024614": {
+      "timestamp": 4024614,
+      "value": 164
+    },
+    "4031060": {
+      "timestamp": 4031060,
+      "value": 237
+    },
+    "4036479": {
+      "timestamp": 4036479,
+      "value": 196
+    },
+    "4041927": {
+      "timestamp": 4041927,
+      "value": 193
+    },
+    "4047283": {
+      "timestamp": 4047283,
+      "value": 188
+    },
+    "4053061": {
+      "timestamp": 4053061,
+      "value": 218
+    },
+    "4058489": {
+      "timestamp": 4058489,
+      "value": 29
+    },
+    "4063821": {
+      "timestamp": 4063821,
+      "value": 250
+    },
+    "4069241": {
+      "timestamp": 4069241,
+      "value": 21
+    },
+    "4074666": {
+      "timestamp": 4074666,
+      "value": 148
+    },
+    "4081435": {
+      "timestamp": 4081435,
+      "value": 157
+    },
+    "4087269": {
+      "timestamp": 4087269,
+      "value": 101
+    },
+    "4092700": {
+      "timestamp": 4092700,
+      "value": 211
+    },
+    "4098119": {
+      "timestamp": 4098119,
+      "value": 152
+    },
+    "4103955": {
+      "timestamp": 4103955,
+      "value": 213
+    },
+    "4109280": {
+      "timestamp": 4109280,
+      "value": 112
+    },
+    "4114604": {
+      "timestamp": 4114604,
+      "value": 57
+    },
+    "4119942": {
+      "timestamp": 4119942,
+      "value": 200
+    },
+    "4125767": {
+      "timestamp": 4125767,
+      "value": 62
+    },
+    "4131244": {
+      "timestamp": 4131244,
+      "value": 12
+    },
+    "4137030": {
+      "timestamp": 4137030,
+      "value": 238
+    },
+    "4142459": {
+      "timestamp": 4142459,
+      "value": 228
+    },
+    "4147887": {
+      "timestamp": 4147887,
+      "value": 47
+    },
+    "4153212": {
+      "timestamp": 4153212,
+      "value": 16
+    },
+    "4158687": {
+      "timestamp": 4158687,
+      "value": 229
+    },
+    "4164679": {
+      "timestamp": 4164679,
+      "value": 213
+    },
+    "4170621": {
+      "timestamp": 4170621,
+      "value": 49
+    },
+    "4175956": {
+      "timestamp": 4175956,
+      "value": 23
+    },
+    "4181987": {
+      "timestamp": 4181987,
+      "value": 120
+    },
+    "4187413": {
+      "timestamp": 4187413,
+      "value": 175
+    },
+    "4193374": {
+      "timestamp": 4193374,
+      "value": 147
+    },
+    "4198781": {
+      "timestamp": 4198781,
+      "value": 136
+    },
+    "4204222": {
+      "timestamp": 4204222,
+      "value": 89
+    },
+    "4210089": {
+      "timestamp": 4210089,
+      "value": 110
+    },
+    "4216191": {
+      "timestamp": 4216191,
+      "value": 57
+    },
+    "4221515": {
+      "timestamp": 4221515,
+      "value": 109
+    },
+    "4228586": {
+      "timestamp": 4228586,
+      "value": 216
+    },
+    "4233906": {
+      "timestamp": 4233906,
+      "value": 42
+    },
+    "4239434": {
+      "timestamp": 4239434,
+      "value": 233
+    },
+    "4244779": {
+      "timestamp": 4244779,
+      "value": 244
+    },
+    "4250496": {
+      "timestamp": 4250496,
+      "value": 138
+    },
+    "4255826": {
+      "timestamp": 4255826,
+      "value": 53
+    },
+    "4261580": {
+      "timestamp": 4261580,
+      "value": 150
+    },
+    "4266987": {
+      "timestamp": 4266987,
+      "value": 205
+    },
+    "4272408": {
+      "timestamp": 4272408,
+      "value": 129
+    },
+    "4277739": {
+      "timestamp": 4277739,
+      "value": 197
+    },
+    "4283162": {
+      "timestamp": 4283162,
+      "value": 138
+    },
+    "4288589": {
+      "timestamp": 4288589,
+      "value": 226
+    },
+    "4293957": {
+      "timestamp": 4293957,
+      "value": 78
+    },
+    "4299753": {
+      "timestamp": 4299753,
+      "value": 155
+    },
+    "4305179": {
+      "timestamp": 4305179,
+      "value": 131
+    },
+    "4310607": {
+      "timestamp": 4310607,
+      "value": 29
+    },
+    "4315952": {
+      "timestamp": 4315952,
+      "value": 111
+    },
+    "4321359": {
+      "timestamp": 4321359,
+      "value": 194
+    },
+    "4326786": {
+      "timestamp": 4326786,
+      "value": 50
+    },
+    "4332521": {
+      "timestamp": 4332521,
+      "value": 244
+    },
+    "4337846": {
+      "timestamp": 4337846,
+      "value": 227
+    },
+    "4343580": {
+      "timestamp": 4343580,
+      "value": 163
+    },
+    "4349042": {
+      "timestamp": 4349042,
+      "value": 249
+    },
+    "4355394": {
+      "timestamp": 4355394,
+      "value": 141
+    },
+    "4360784": {
+      "timestamp": 4360784,
+      "value": 183
+    },
+    "4366517": {
+      "timestamp": 4366517,
+      "value": 46
+    },
+    "4371861": {
+      "timestamp": 4371861,
+      "value": 250
+    },
+    "4377594": {
+      "timestamp": 4377594,
+      "value": 66
+    },
+    "4383006": {
+      "timestamp": 4383006,
+      "value": 128
+    },
+    "4388331": {
+      "timestamp": 4388331,
+      "value": 196
+    },
+    "4394072": {
+      "timestamp": 4394072,
+      "value": 40
+    },
+    "4400107": {
+      "timestamp": 4400107,
+      "value": 76
+    },
+    "4405441": {
+      "timestamp": 4405441,
+      "value": 157
+    },
+    "4410859": {
+      "timestamp": 4410859,
+      "value": 59
+    },
+    "4416594": {
+      "timestamp": 4416594,
+      "value": 93
+    },
+    "4422027": {
+      "timestamp": 4422027,
+      "value": 7
+    },
+    "4427370": {
+      "timestamp": 4427370,
+      "value": 116
+    },
+    "4432818": {
+      "timestamp": 4432818,
+      "value": 222
+    },
+    "4438201": {
+      "timestamp": 4438201,
+      "value": 214
+    },
+    "4443526": {
+      "timestamp": 4443526,
+      "value": 255
+    },
+    "4448959": {
+      "timestamp": 4448959,
+      "value": 27
+    },
+    "4454302": {
+      "timestamp": 4454302,
+      "value": 185
+    },
+    "4459706": {
+      "timestamp": 4459706,
+      "value": 171
+    },
+    "4465439": {
+      "timestamp": 4465439,
+      "value": 223
+    },
+    "4470766": {
+      "timestamp": 4470766,
+      "value": 253
+    },
+    "4476602": {
+      "timestamp": 4476602,
+      "value": 64
+    },
+    "4481928": {
+      "timestamp": 4481928,
+      "value": 104
+    },
+    "4487355": {
+      "timestamp": 4487355,
+      "value": 191
+    },
+    "4493192": {
+      "timestamp": 4493192,
+      "value": 151
+    },
+    "4498618": {
+      "timestamp": 4498618,
+      "value": 58
+    },
+    "4503957": {
+      "timestamp": 4503957,
+      "value": 42
+    },
+    "4509918": {
+      "timestamp": 4509918,
+      "value": 162
+    },
+    "4517257": {
+      "timestamp": 4517257,
+      "value": 141
+    },
+    "4522787": {
+      "timestamp": 4522787,
+      "value": 98
+    },
+    "4528835": {
+      "timestamp": 4528835,
+      "value": 145
+    },
+    "4534158": {
+      "timestamp": 4534158,
+      "value": 14
+    },
+    "4539483": {
+      "timestamp": 4539483,
+      "value": 227
+    },
+    "4544904": {
+      "timestamp": 4544904,
+      "value": 45
+    },
+    "4550657": {
+      "timestamp": 4550657,
+      "value": 214
+    },
+    "4556066": {
+      "timestamp": 4556066,
+      "value": 165
+    },
+    "4562760": {
+      "timestamp": 4562760,
+      "value": 254
+    },
+    "4568152": {
+      "timestamp": 4568152,
+      "value": 238
+    },
+    "4573579": {
+      "timestamp": 4573579,
+      "value": 197
+    },
+    "4580133": {
+      "timestamp": 4580133,
+      "value": 108
+    },
+    "4585475": {
+      "timestamp": 4585475,
+      "value": 19
+    },
+    "4590885": {
+      "timestamp": 4590885,
+      "value": 173
+    },
+    "4596313": {
+      "timestamp": 4596313,
+      "value": 217
+    },
+    "4601638": {
+      "timestamp": 4601638,
+      "value": 73
+    },
+    "4607063": {
+      "timestamp": 4607063,
+      "value": 238
+    },
+    "4612404": {
+      "timestamp": 4612404,
+      "value": 142
+    },
+    "4617852": {
+      "timestamp": 4617852,
+      "value": 94
+    },
+    "4623243": {
+      "timestamp": 4623243,
+      "value": 206
+    },
+    "4628572": {
+      "timestamp": 4628572,
+      "value": 15
+    },
+    "4633997": {
+      "timestamp": 4633997,
+      "value": 24
+    },
+    "4639437": {
+      "timestamp": 4639437,
+      "value": 91
+    },
+    "4645192": {
+      "timestamp": 4645192,
+      "value": 137
+    },
+    "4650587": {
+      "timestamp": 4650587,
+      "value": 226
+    },
+    "4655911": {
+      "timestamp": 4655911,
+      "value": 63
+    },
+    "4661646": {
+      "timestamp": 4661646,
+      "value": 47
+    },
+    "4666984": {
+      "timestamp": 4666984,
+      "value": 182
+    },
+    "4672413": {
+      "timestamp": 4672413,
+      "value": 91
+    },
+    "4678147": {
+      "timestamp": 4678147,
+      "value": 113
+    },
+    "4684278": {
+      "timestamp": 4684278,
+      "value": 234
+    },
+    "4690012": {
+      "timestamp": 4690012,
+      "value": 170
+    },
+    "4695355": {
+      "timestamp": 4695355,
+      "value": 131
+    },
+    "4701071": {
+      "timestamp": 4701071,
+      "value": 131
+    },
+    "4706499": {
+      "timestamp": 4706499,
+      "value": 21
+    },
+    "4711831": {
+      "timestamp": 4711831,
+      "value": 218
+    },
+    "4717252": {
+      "timestamp": 4717252,
+      "value": 61
+    },
+    "4722593": {
+      "timestamp": 4722593,
+      "value": 34
+    },
+    "4728004": {
+      "timestamp": 4728004,
+      "value": 254
+    },
+    "4734248": {
+      "timestamp": 4734248,
+      "value": 25
+    },
+    "4740404": {
+      "timestamp": 4740404,
+      "value": 194
+    },
+    "4745822": {
+      "timestamp": 4745822,
+      "value": 56
+    },
+    "4751166": {
+      "timestamp": 4751166,
+      "value": 9
+    },
+    "4756574": {
+      "timestamp": 4756574,
+      "value": 167
+    },
+    "4764488": {
+      "timestamp": 4764488,
+      "value": 202
+    },
+    "4770093": {
+      "timestamp": 4770093,
+      "value": 83
+    },
+    "4775525": {
+      "timestamp": 4775525,
+      "value": 23
+    },
+    "4780856": {
+      "timestamp": 4780856,
+      "value": 8
+    },
+    "4786279": {
+      "timestamp": 4786279,
+      "value": 19
+    },
+    "4791698": {
+      "timestamp": 4791698,
+      "value": 132
+    },
+    "4798457": {
+      "timestamp": 4798457,
+      "value": 116
+    },
+    "4803793": {
+      "timestamp": 4803793,
+      "value": 66
+    },
+    "4809652": {
+      "timestamp": 4809652,
+      "value": 212
+    },
+    "4815047": {
+      "timestamp": 4815047,
+      "value": 233
+    },
+    "4820376": {
+      "timestamp": 4820376,
+      "value": 141
+    },
+    "4826823": {
+      "timestamp": 4826823,
+      "value": 129
+    },
+    "4832266": {
+      "timestamp": 4832266,
+      "value": 115
+    },
+    "4838087": {
+      "timestamp": 4838087,
+      "value": 200
+    },
+    "4843822": {
+      "timestamp": 4843822,
+      "value": 158
+    },
+    "4849152": {
+      "timestamp": 4849152,
+      "value": 81
+    },
+    "4854575": {
+      "timestamp": 4854575,
+      "value": 251
+    },
+    "4860002": {
+      "timestamp": 4860002,
+      "value": 203
+    },
+    "4865332": {
+      "timestamp": 4865332,
+      "value": 221
+    },
+    "4873212": {
+      "timestamp": 4873212,
+      "value": 97
+    },
+    "4879664": {
+      "timestamp": 4879664,
+      "value": 207
+    },
+    "4884994": {
+      "timestamp": 4884994,
+      "value": 97
+    },
+    "4890850": {
+      "timestamp": 4890850,
+      "value": 56
+    },
+    "4896257": {
+      "timestamp": 4896257,
+      "value": 86
+    },
+    "4901987": {
+      "timestamp": 4901987,
+      "value": 157
+    },
+    "4907415": {
+      "timestamp": 4907415,
+      "value": 212
+    },
+    "4913156": {
+      "timestamp": 4913156,
+      "value": 226
+    },
+    "4918578": {
+      "timestamp": 4918578,
+      "value": 55
+    },
+    "4924005": {
+      "timestamp": 4924005,
+      "value": 44
+    },
+    "4929739": {
+      "timestamp": 4929739,
+      "value": 128
+    },
+    "4935479": {
+      "timestamp": 4935479,
+      "value": 197
+    },
+    "4940901": {
+      "timestamp": 4940901,
+      "value": 178
+    },
+    "4946769": {
+      "timestamp": 4946769,
+      "value": 103
+    },
+    "4952166": {
+      "timestamp": 4952166,
+      "value": 0
+    },
+    "4957592": {
+      "timestamp": 4957592,
+      "value": 50
+    },
+    "4962917": {
+      "timestamp": 4962917,
+      "value": 158
+    },
+    "4968248": {
+      "timestamp": 4968248,
+      "value": 97
+    },
+    "4973694": {
+      "timestamp": 4973694,
+      "value": 83
+    },
+    "4979102": {
+      "timestamp": 4979102,
+      "value": 132
+    },
+    "4985037": {
+      "timestamp": 4985037,
+      "value": 238
+    },
+    "4990772": {
+      "timestamp": 4990772,
+      "value": 227
+    },
+    "4996103": {
+      "timestamp": 4996103,
+      "value": 59
+    },
+    "5001858": {
+      "timestamp": 5001858,
+      "value": 208
+    },
+    "5007265": {
+      "timestamp": 5007265,
+      "value": 27
+    },
+    "5017522": {
+      "timestamp": 5017522,
+      "value": 7
+    },
+    "5022933": {
+      "timestamp": 5022933,
+      "value": 225
+    },
+    "5028251": {
+      "timestamp": 5028251,
+      "value": 59
+    },
+    "5033725": {
+      "timestamp": 5033725,
+      "value": 215
+    },
+    "5042610": {
+      "timestamp": 5042610,
+      "value": 27
+    },
+    "5048459": {
+      "timestamp": 5048459,
+      "value": 228
+    },
+    "5054282": {
+      "timestamp": 5054282,
+      "value": 22
+    },
+    "5059689": {
+      "timestamp": 5059689,
+      "value": 79
+    },
+    "5065563": {
+      "timestamp": 5065563,
+      "value": 225
+    },
+    "5070953": {
+      "timestamp": 5070953,
+      "value": 175
+    },
+    "5076283": {
+      "timestamp": 5076283,
+      "value": 77
+    },
+    "5081832": {
+      "timestamp": 5081832,
+      "value": 108
+    },
+    "5087241": {
+      "timestamp": 5087241,
+      "value": 234
+    },
+    "5092663": {
+      "timestamp": 5092663,
+      "value": 12
+    },
+    "5097989": {
+      "timestamp": 5097989,
+      "value": 17
+    },
+    "5103318": {
+      "timestamp": 5103318,
+      "value": 27
+    },
+    "5109091": {
+      "timestamp": 5109091,
+      "value": 162
+    },
+    "5115197": {
+      "timestamp": 5115197,
+      "value": 88
+    },
+    "5121848": {
+      "timestamp": 5121848,
+      "value": 25
+    },
+    "5127787": {
+      "timestamp": 5127787,
+      "value": 124
+    },
+    "5133126": {
+      "timestamp": 5133126,
+      "value": 195
+    },
+    "5138745": {
+      "timestamp": 5138745,
+      "value": 167
+    },
+    "5144494": {
+      "timestamp": 5144494,
+      "value": 3
+    },
+    "5152057": {
+      "timestamp": 5152057,
+      "value": 27
+    },
+    "5157489": {
+      "timestamp": 5157489,
+      "value": 39
+    },
+    "5163346": {
+      "timestamp": 5163346,
+      "value": 77
+    },
+    "5168755": {
+      "timestamp": 5168755,
+      "value": 111
+    },
+    "5174174": {
+      "timestamp": 5174174,
+      "value": 149
+    },
+    "5179501": {
+      "timestamp": 5179501,
+      "value": 205
+    },
+    "5185344": {
+      "timestamp": 5185344,
+      "value": 36
+    },
+    "5190665": {
+      "timestamp": 5190665,
+      "value": 89
+    },
+    "5196402": {
+      "timestamp": 5196402,
+      "value": 114
+    },
+    "5201823": {
+      "timestamp": 5201823,
+      "value": 223
+    },
+    "5207253": {
+      "timestamp": 5207253,
+      "value": 191
+    },
+    "5212678": {
+      "timestamp": 5212678,
+      "value": 134
+    },
+    "5218105": {
+      "timestamp": 5218105,
+      "value": 221
+    },
+    "5223943": {
+      "timestamp": 5223943,
+      "value": 3
+    },
+    "5229269": {
+      "timestamp": 5229269,
+      "value": 120
+    },
+    "5234696": {
+      "timestamp": 5234696,
+      "value": 229
+    },
+    "5240029": {
+      "timestamp": 5240029,
+      "value": 235
+    },
+    "5245859": {
+      "timestamp": 5245859,
+      "value": 60
+    },
+    "5251695": {
+      "timestamp": 5251695,
+      "value": 129
+    },
+    "5257121": {
+      "timestamp": 5257121,
+      "value": 191
+    },
+    "5263608": {
+      "timestamp": 5263608,
+      "value": 117
+    },
+    "5269014": {
+      "timestamp": 5269014,
+      "value": 251
+    },
+    "5274872": {
+      "timestamp": 5274872,
+      "value": 246
+    },
+    "5280266": {
+      "timestamp": 5280266,
+      "value": 132
+    },
+    "5286101": {
+      "timestamp": 5286101,
+      "value": 168
+    },
+    "5291531": {
+      "timestamp": 5291531,
+      "value": 143
+    },
+    "5297381": {
+      "timestamp": 5297381,
+      "value": 141
+    },
+    "5302793": {
+      "timestamp": 5302793,
+      "value": 133
+    },
+    "5308836": {
+      "timestamp": 5308836,
+      "value": 229
+    },
+    "5314162": {
+      "timestamp": 5314162,
+      "value": 123
+    },
+    "5319588": {
+      "timestamp": 5319588,
+      "value": 241
+    },
+    "5324930": {
+      "timestamp": 5324930,
+      "value": 9
+    },
+    "5330378": {
+      "timestamp": 5330378,
+      "value": 199
+    },
+    "5335769": {
+      "timestamp": 5335769,
+      "value": 23
+    },
+    "5341094": {
+      "timestamp": 5341094,
+      "value": 14
+    },
+    "5346519": {
+      "timestamp": 5346519,
+      "value": 205
+    },
+    "5351861": {
+      "timestamp": 5351861,
+      "value": 95
+    },
+    "5357273": {
+      "timestamp": 5357273,
+      "value": 171
+    },
+    "5362702": {
+      "timestamp": 5362702,
+      "value": 188
+    },
+    "5368134": {
+      "timestamp": 5368134,
+      "value": 224
+    },
+    "5373556": {
+      "timestamp": 5373556,
+      "value": 230
+    },
+    "5378894": {
+      "timestamp": 5378894,
+      "value": 25
+    },
+    "5384309": {
+      "timestamp": 5384309,
+      "value": 105
+    },
+    "5389736": {
+      "timestamp": 5389736,
+      "value": 219
+    },
+    "5395163": {
+      "timestamp": 5395163,
+      "value": 161
+    },
+    "5400499": {
+      "timestamp": 5400499,
+      "value": 156
+    },
+    "5406325": {
+      "timestamp": 5406325,
+      "value": 140
+    },
+    "5411779": {
+      "timestamp": 5411779,
+      "value": 104
+    },
+    "5417184": {
+      "timestamp": 5417184,
+      "value": 95
+    },
+    "5423017": {
+      "timestamp": 5423017,
+      "value": 72
+    },
+    "5428444": {
+      "timestamp": 5428444,
+      "value": 44
+    },
+    "5433776": {
+      "timestamp": 5433776,
+      "value": 96
+    },
+    "5439606": {
+      "timestamp": 5439606,
+      "value": 249
+    },
+    "5444937": {
+      "timestamp": 5444937,
+      "value": 95
+    },
+    "5450674": {
+      "timestamp": 5450674,
+      "value": 127
+    },
+    "5456100": {
+      "timestamp": 5456100,
+      "value": 23
+    },
+    "5461529": {
+      "timestamp": 5461529,
+      "value": 149
+    },
+    "5467255": {
+      "timestamp": 5467255,
+      "value": 32
+    },
+    "5473092": {
+      "timestamp": 5473092,
+      "value": 100
+    },
+    "5478419": {
+      "timestamp": 5478419,
+      "value": 135
+    },
+    "5484152": {
+      "timestamp": 5484152,
+      "value": 240
+    },
+    "5490192": {
+      "timestamp": 5490192,
+      "value": 203
+    },
+    "5495621": {
+      "timestamp": 5495621,
+      "value": 205
+    },
+    "5501048": {
+      "timestamp": 5501048,
+      "value": 121
+    },
+    "5506374": {
+      "timestamp": 5506374,
+      "value": 52
+    },
+    "5512106": {
+      "timestamp": 5512106,
+      "value": 193
+    },
+    "5517842": {
+      "timestamp": 5517842,
+      "value": 247
+    },
+    "5523312": {
+      "timestamp": 5523312,
+      "value": 66
+    },
+    "5529004": {
+      "timestamp": 5529004,
+      "value": 247
+    },
+    "5534432": {
+      "timestamp": 5534432,
+      "value": 3
+    },
+    "5539758": {
+      "timestamp": 5539758,
+      "value": 125
+    },
+    "5545183": {
+      "timestamp": 5545183,
+      "value": 205
+    },
+    "5550514": {
+      "timestamp": 5550514,
+      "value": 181
+    },
+    "5555935": {
+      "timestamp": 5555935,
+      "value": 169
+    },
+    "5561672": {
+      "timestamp": 5561672,
+      "value": 149
+    },
+    "5567099": {
+      "timestamp": 5567099,
+      "value": 140
+    },
+    "5572443": {
+      "timestamp": 5572443,
+      "value": 174
+    },
+    "5577849": {
+      "timestamp": 5577849,
+      "value": 84
+    },
+    "5583488": {
+      "timestamp": 5583488,
+      "value": 255
+    },
+    "5588910": {
+      "timestamp": 5588910,
+      "value": 255
+    },
+    "5594337": {
+      "timestamp": 5594337,
+      "value": 250
+    },
+    "5599787": {
+      "timestamp": 5599787,
+      "value": 106
+    },
+    "5605197": {
+      "timestamp": 5605197,
+      "value": 129
+    },
+    "5610619": {
+      "timestamp": 5610619,
+      "value": 171
+    },
+    "5617072": {
+      "timestamp": 5617072,
+      "value": 85
+    },
+    "5622404": {
+      "timestamp": 5622404,
+      "value": 123
+    },
+    "5627824": {
+      "timestamp": 5627824,
+      "value": 137
+    },
+    "5633163": {
+      "timestamp": 5633163,
+      "value": 243
+    },
+    "5638576": {
+      "timestamp": 5638576,
+      "value": 77
+    },
+    "5643903": {
+      "timestamp": 5643903,
+      "value": 189
+    },
+    "5649328": {
+      "timestamp": 5649328,
+      "value": 226
+    },
+    "5654961": {
+      "timestamp": 5654961,
+      "value": 59
+    },
+    "5660300": {
+      "timestamp": 5660300,
+      "value": 74
+    },
+    "5665714": {
+      "timestamp": 5665714,
+      "value": 83
+    },
+    "5671856": {
+      "timestamp": 5671856,
+      "value": 209
+    },
+    "5677196": {
+      "timestamp": 5677196,
+      "value": 98
+    },
+    "5682610": {
+      "timestamp": 5682610,
+      "value": 134
+    },
+    "5687935": {
+      "timestamp": 5687935,
+      "value": 251
+    },
+    "5693266": {
+      "timestamp": 5693266,
+      "value": 58
+    },
+    "5698685": {
+      "timestamp": 5698685,
+      "value": 58
+    },
+    "5704134": {
+      "timestamp": 5704134,
+      "value": 197
+    },
+    "5709685": {
+      "timestamp": 5709685,
+      "value": 137
+    },
+    "5715072": {
+      "timestamp": 5715072,
+      "value": 201
+    },
+    "5720410": {
+      "timestamp": 5720410,
+      "value": 101
+    },
+    "5725824": {
+      "timestamp": 5725824,
+      "value": 247
+    },
+    "5731270": {
+      "timestamp": 5731270,
+      "value": 177
+    },
+    "5736821": {
+      "timestamp": 5736821,
+      "value": 35
+    },
+    "5742646": {
+      "timestamp": 5742646,
+      "value": 177
+    },
+    "5748661": {
+      "timestamp": 5748661,
+      "value": 45
+    },
+    "5754088": {
+      "timestamp": 5754088,
+      "value": 145
+    },
+    "5759513": {
+      "timestamp": 5759513,
+      "value": 37
+    },
+    "5764942": {
+      "timestamp": 5764942,
+      "value": 91
+    },
+    "5770370": {
+      "timestamp": 5770370,
+      "value": 127
+    },
+    "5775802": {
+      "timestamp": 5775802,
+      "value": 226
+    },
+    "5781223": {
+      "timestamp": 5781223,
+      "value": 193
+    },
+    "5787182": {
+      "timestamp": 5787182,
+      "value": 232
+    },
+    "5792733": {
+      "timestamp": 5792733,
+      "value": 99
+    },
+    "5798121": {
+      "timestamp": 5798121,
+      "value": 197
+    },
+    "5805189": {
+      "timestamp": 5805189,
+      "value": 70
+    },
+    "5810519": {
+      "timestamp": 5810519,
+      "value": 122
+    },
+    "5816452": {
+      "timestamp": 5816452,
+      "value": 161
+    },
+    "5822809": {
+      "timestamp": 5822809,
+      "value": 175
+    },
+    "5831328": {
+      "timestamp": 5831328,
+      "value": 242
+    },
+    "5836728": {
+      "timestamp": 5836728,
+      "value": 64
+    },
+    "5842155": {
+      "timestamp": 5842155,
+      "value": 129
+    },
+    "5847620": {
+      "timestamp": 5847620,
+      "value": 13
+    },
+    "5853625": {
+      "timestamp": 5853625,
+      "value": 66
+    },
+    "5858954": {
+      "timestamp": 5858954,
+      "value": 22
+    },
+    "5864580": {
+      "timestamp": 5864580,
+      "value": 39
+    },
+    "5869926": {
+      "timestamp": 5869926,
+      "value": 92
+    },
+    "5875641": {
+      "timestamp": 5875641,
+      "value": 65
+    },
+    "5881066": {
+      "timestamp": 5881066,
+      "value": 238
+    },
+    "5886803": {
+      "timestamp": 5886803,
+      "value": 35
+    },
+    "5892133": {
+      "timestamp": 5892133,
+      "value": 234
+    },
+    "5897553": {
+      "timestamp": 5897553,
+      "value": 110
+    },
+    "5903021": {
+      "timestamp": 5903021,
+      "value": 31
+    },
+    "5908845": {
+      "timestamp": 5908845,
+      "value": 227
+    },
+    "5914247": {
+      "timestamp": 5914247,
+      "value": 177
+    },
+    "5920186": {
+      "timestamp": 5920186,
+      "value": 125
+    },
+    "5925614": {
+      "timestamp": 5925614,
+      "value": 182
+    },
+    "5931041": {
+      "timestamp": 5931041,
+      "value": 214
+    },
+    "5936879": {
+      "timestamp": 5936879,
+      "value": 118
+    },
+    "5942305": {
+      "timestamp": 5942305,
+      "value": 28
+    },
+    "5947631": {
+      "timestamp": 5947631,
+      "value": 132
+    },
+    "5953466": {
+      "timestamp": 5953466,
+      "value": 146
+    },
+    "5958800": {
+      "timestamp": 5958800,
+      "value": 67
+    },
+    "5964669": {
+      "timestamp": 5964669,
+      "value": 100
+    },
+    "5970071": {
+      "timestamp": 5970071,
+      "value": 191
+    },
+    "5975489": {
+      "timestamp": 5975489,
+      "value": 45
+    },
+    "5980912": {
+      "timestamp": 5980912,
+      "value": 94
+    },
+    "5986339": {
+      "timestamp": 5986339,
+      "value": 162
+    },
+    "5991809": {
+      "timestamp": 5991809,
+      "value": 212
+    },
+    "5997192": {
+      "timestamp": 5997192,
+      "value": 213
+    },
+    "6003036": {
+      "timestamp": 6003036,
+      "value": 49
+    },
+    "6008458": {
+      "timestamp": 6008458,
+      "value": 10
+    },
+    "6013926": {
+      "timestamp": 6013926,
+      "value": 129
+    },
+    "6020346": {
+      "timestamp": 6020346,
+      "value": 179
+    },
+    "6025872": {
+      "timestamp": 6025872,
+      "value": 196
+    },
+    "6031300": {
+      "timestamp": 6031300,
+      "value": 188
+    },
+    "6037157": {
+      "timestamp": 6037157,
+      "value": 244
+    },
+    "6042566": {
+      "timestamp": 6042566,
+      "value": 136
+    },
+    "6049010": {
+      "timestamp": 6049010,
+      "value": 184
+    },
+    "6055974": {
+      "timestamp": 6055974,
+      "value": 86
+    },
+    "6061313": {
+      "timestamp": 6061313,
+      "value": 27
+    },
+    "6068057": {
+      "timestamp": 6068057,
+      "value": 186
+    },
+    "6073484": {
+      "timestamp": 6073484,
+      "value": 112
+    },
+    "6078816": {
+      "timestamp": 6078816,
+      "value": 37
+    },
+    "6084257": {
+      "timestamp": 6084257,
+      "value": 170
+    },
+    "6091405": {
+      "timestamp": 6091405,
+      "value": 94
+    },
+    "6096735": {
+      "timestamp": 6096735,
+      "value": 214
+    },
+    "6102158": {
+      "timestamp": 6102158,
+      "value": 70
+    },
+    "6107585": {
+      "timestamp": 6107585,
+      "value": 54
+    },
+    "6112920": {
+      "timestamp": 6112920,
+      "value": 196
+    },
+    "6118745": {
+      "timestamp": 6118745,
+      "value": 95
+    },
+    "6124729": {
+      "timestamp": 6124729,
+      "value": 106
+    },
+    "6130538": {
+      "timestamp": 6130538,
+      "value": 136
+    },
+    "6135950": {
+      "timestamp": 6135950,
+      "value": 109
+    },
+    "6141379": {
+      "timestamp": 6141379,
+      "value": 99
+    },
+    "6146827": {
+      "timestamp": 6146827,
+      "value": 43
+    },
+    "6152238": {
+      "timestamp": 6152238,
+      "value": 217
+    },
+    "6159095": {
+      "timestamp": 6159095,
+      "value": 97
+    },
+    "6165032": {
+      "timestamp": 6165032,
+      "value": 162
+    },
+    "6172020": {
+      "timestamp": 6172020,
+      "value": 230
+    },
+    "6177424": {
+      "timestamp": 6177424,
+      "value": 148
+    },
+    "6184387": {
+      "timestamp": 6184387,
+      "value": 210
+    },
+    "6189733": {
+      "timestamp": 6189733,
+      "value": 159
+    },
+    "6195243": {
+      "timestamp": 6195243,
+      "value": 137
+    },
+    "6200689": {
+      "timestamp": 6200689,
+      "value": 158
+    },
+    "6206102": {
+      "timestamp": 6206102,
+      "value": 235
+    },
+    "6212036": {
+      "timestamp": 6212036,
+      "value": 132
+    },
+    "6218795": {
+      "timestamp": 6218795,
+      "value": 250
+    },
+    "6224129": {
+      "timestamp": 6224129,
+      "value": 39
+    },
+    "6230601": {
+      "timestamp": 6230601,
+      "value": 172
+    },
+    "6236102": {
+      "timestamp": 6236102,
+      "value": 59
+    },
+    "6241529": {
+      "timestamp": 6241529,
+      "value": 108
+    },
+    "6247469": {
+      "timestamp": 6247469,
+      "value": 247
+    },
+    "6253316": {
+      "timestamp": 6253316,
+      "value": 76
+    },
+    "6258738": {
+      "timestamp": 6258738,
+      "value": 218
+    },
+    "6264160": {
+      "timestamp": 6264160,
+      "value": 74
+    },
+    "6269588": {
+      "timestamp": 6269588,
+      "value": 63
+    },
+    "6275015": {
+      "timestamp": 6275015,
+      "value": 90
+    },
+    "6280348": {
+      "timestamp": 6280348,
+      "value": 65
+    },
+    "6285796": {
+      "timestamp": 6285796,
+      "value": 192
+    },
+    "6291298": {
+      "timestamp": 6291298,
+      "value": 39
+    },
+    "6296636": {
+      "timestamp": 6296636,
+      "value": 211
+    },
+    "6302048": {
+      "timestamp": 6302048,
+      "value": 199
+    },
+    "6307477": {
+      "timestamp": 6307477,
+      "value": 229
+    },
+    "6312928": {
+      "timestamp": 6312928,
+      "value": 12
+    },
+    "6318339": {
+      "timestamp": 6318339,
+      "value": 113
+    },
+    "6324169": {
+      "timestamp": 6324169,
+      "value": 40
+    },
+    "6329503": {
+      "timestamp": 6329503,
+      "value": 25
+    },
+    "6334927": {
+      "timestamp": 6334927,
+      "value": 174
+    },
+    "6340272": {
+      "timestamp": 6340272,
+      "value": 48
+    },
+    "6345673": {
+      "timestamp": 6345673,
+      "value": 98
+    },
+    "6351101": {
+      "timestamp": 6351101,
+      "value": 240
+    },
+    "6356427": {
+      "timestamp": 6356427,
+      "value": 227
+    },
+    "6361851": {
+      "timestamp": 6361851,
+      "value": 218
+    },
+    "6367588": {
+      "timestamp": 6367588,
+      "value": 12
+    },
+    "6372917": {
+      "timestamp": 6372917,
+      "value": 167
+    },
+    "6378647": {
+      "timestamp": 6378647,
+      "value": 225
+    },
+    "6383972": {
+      "timestamp": 6383972,
+      "value": 26
+    },
+    "6389404": {
+      "timestamp": 6389404,
+      "value": 119
+    },
+    "6394748": {
+      "timestamp": 6394748,
+      "value": 61
+    },
+    "6400778": {
+      "timestamp": 6400778,
+      "value": 189
+    },
+    "6406195": {
+      "timestamp": 6406195,
+      "value": 243
+    },
+    "6411621": {
+      "timestamp": 6411621,
+      "value": 125
+    },
+    "6416953": {
+      "timestamp": 6416953,
+      "value": 190
+    },
+    "6423293": {
+      "timestamp": 6423293,
+      "value": 37
+    },
+    "6429133": {
+      "timestamp": 6429133,
+      "value": 224
+    },
+    "6435493": {
+      "timestamp": 6435493,
+      "value": 129
+    },
+    "6440916": {
+      "timestamp": 6440916,
+      "value": 126
+    },
+    "6446263": {
+      "timestamp": 6446263,
+      "value": 78
+    },
+    "6451682": {
+      "timestamp": 6451682,
+      "value": 33
+    },
+    "6457089": {
+      "timestamp": 6457089,
+      "value": 204
+    },
+    "6462423": {
+      "timestamp": 6462423,
+      "value": 227
+    },
+    "6467846": {
+      "timestamp": 6467846,
+      "value": 50
+    },
+    "6473189": {
+      "timestamp": 6473189,
+      "value": 90
+    },
+    "6478601": {
+      "timestamp": 6478601,
+      "value": 253
+    },
+    "6485045": {
+      "timestamp": 6485045,
+      "value": 223
+    },
+    "6490375": {
+      "timestamp": 6490375,
+      "value": 129
+    },
+    "6495808": {
+      "timestamp": 6495808,
+      "value": 127
+    },
+    "6501225": {
+      "timestamp": 6501225,
+      "value": 28
+    },
+    "6506857": {
+      "timestamp": 6506857,
+      "value": 113
+    },
+    "6512188": {
+      "timestamp": 6512188,
+      "value": 152
+    },
+    "6517917": {
+      "timestamp": 6517917,
+      "value": 87
+    },
+    "6523357": {
+      "timestamp": 6523357,
+      "value": 149
+    },
+    "6528772": {
+      "timestamp": 6528772,
+      "value": 209
+    },
+    "6534197": {
+      "timestamp": 6534197,
+      "value": 227
+    },
+    "6539530": {
+      "timestamp": 6539530,
+      "value": 83
+    },
+    "6545258": {
+      "timestamp": 6545258,
+      "value": 159
+    },
+    "6550595": {
+      "timestamp": 6550595,
+      "value": 70
+    },
+    "6556011": {
+      "timestamp": 6556011,
+      "value": 54
+    },
+    "6561437": {
+      "timestamp": 6561437,
+      "value": 220
+    },
+    "6566865": {
+      "timestamp": 6566865,
+      "value": 91
+    },
+    "6572195": {
+      "timestamp": 6572195,
+      "value": 136
+    },
+    "6577627": {
+      "timestamp": 6577627,
+      "value": 3
+    },
+    "6583897": {
+      "timestamp": 6583897,
+      "value": 57
+    },
+    "6589497": {
+      "timestamp": 6589497,
+      "value": 90
+    },
+    "6594828": {
+      "timestamp": 6594828,
+      "value": 35
+    },
+    "6601068": {
+      "timestamp": 6601068,
+      "value": 140
+    },
+    "6606409": {
+      "timestamp": 6606409,
+      "value": 197
+    },
+    "6611821": {
+      "timestamp": 6611821,
+      "value": 158
+    },
+    "6617555": {
+      "timestamp": 6617555,
+      "value": 210
+    },
+    "6624441": {
+      "timestamp": 6624441,
+      "value": 228
+    },
+    "6629845": {
+      "timestamp": 6629845,
+      "value": 119
+    },
+    "6635271": {
+      "timestamp": 6635271,
+      "value": 167
+    },
+    "6641208": {
+      "timestamp": 6641208,
+      "value": 171
+    },
+    "6646536": {
+      "timestamp": 6646536,
+      "value": 102
+    },
+    "6651862": {
+      "timestamp": 6651862,
+      "value": 33
+    },
+    "6657699": {
+      "timestamp": 6657699,
+      "value": 2
+    },
+    "6663125": {
+      "timestamp": 6663125,
+      "value": 32
+    },
+    "6668904": {
+      "timestamp": 6668904,
+      "value": 242
+    },
+    "6675104": {
+      "timestamp": 6675104,
+      "value": 135
+    },
+    "6680431": {
+      "timestamp": 6680431,
+      "value": 70
+    },
+    "6685763": {
+      "timestamp": 6685763,
+      "value": 170
+    },
+    "6691723": {
+      "timestamp": 6691723,
+      "value": 164
+    },
+    "6697141": {
+      "timestamp": 6697141,
+      "value": 215
+    },
+    "6702867": {
+      "timestamp": 6702867,
+      "value": 116
+    },
+    "6708284": {
+      "timestamp": 6708284,
+      "value": 142
+    },
+    "6713719": {
+      "timestamp": 6713719,
+      "value": 73
+    },
+    "6719489": {
+      "timestamp": 6719489,
+      "value": 1
+    },
+    "6724874": {
+      "timestamp": 6724874,
+      "value": 220
+    },
+    "6730610": {
+      "timestamp": 6730610,
+      "value": 22
+    },
+    "6736036": {
+      "timestamp": 6736036,
+      "value": 233
+    },
+    "6741373": {
+      "timestamp": 6741373,
+      "value": 255
+    },
+    "6747232": {
+      "timestamp": 6747232,
+      "value": 183
+    },
+    "6752625": {
+      "timestamp": 6752625,
+      "value": 121
+    },
+    "6759293": {
+      "timestamp": 6759293,
+      "value": 208
+    },
+    "6765427": {
+      "timestamp": 6765427,
+      "value": 72
+    },
+    "6770751": {
+      "timestamp": 6770751,
+      "value": 98
+    },
+    "6776486": {
+      "timestamp": 6776486,
+      "value": 202
+    },
+    "6782323": {
+      "timestamp": 6782323,
+      "value": 36
+    },
+    "6788715": {
+      "timestamp": 6788715,
+      "value": 112
+    },
+    "6795430": {
+      "timestamp": 6795430,
+      "value": 79
+    },
+    "6800761": {
+      "timestamp": 6800761,
+      "value": 219
+    },
+    "6806183": {
+      "timestamp": 6806183,
+      "value": 27
+    },
+    "6812020": {
+      "timestamp": 6812020,
+      "value": 147
+    },
+    "6817957": {
+      "timestamp": 6817957,
+      "value": 42
+    },
+    "6823400": {
+      "timestamp": 6823400,
+      "value": 79
+    },
+    "6829259": {
+      "timestamp": 6829259,
+      "value": 169
+    },
+    "6834651": {
+      "timestamp": 6834651,
+      "value": 75
+    },
+    "6840076": {
+      "timestamp": 6840076,
+      "value": 23
+    },
+    "6845505": {
+      "timestamp": 6845505,
+      "value": 185
+    },
+    "6850856": {
+      "timestamp": 6850856,
+      "value": 135
+    },
+    "6856770": {
+      "timestamp": 6856770,
+      "value": 38
+    },
+    "6862707": {
+      "timestamp": 6862707,
+      "value": 57
+    },
+    "6868158": {
+      "timestamp": 6868158,
+      "value": 106
+    },
+    "6873564": {
+      "timestamp": 6873564,
+      "value": 221
+    },
+    "6879435": {
+      "timestamp": 6879435,
+      "value": 130
+    },
+    "6884829": {
+      "timestamp": 6884829,
+      "value": 34
+    },
+    "6891694": {
+      "timestamp": 6891694,
+      "value": 0
+    },
+    "6897050": {
+      "timestamp": 6897050,
+      "value": 186
+    },
+    "6902876": {
+      "timestamp": 6902876,
+      "value": 143
+    },
+    "6908203": {
+      "timestamp": 6908203,
+      "value": 86
+    },
+    "6913604": {
+      "timestamp": 6913604,
+      "value": 137
+    },
+    "6919031": {
+      "timestamp": 6919031,
+      "value": 64
+    },
+    "6924361": {
+      "timestamp": 6924361,
+      "value": 208
+    },
+    "6930404": {
+      "timestamp": 6930404,
+      "value": 0
+    },
+    "6935852": {
+      "timestamp": 6935852,
+      "value": 167
+    },
+    "6941259": {
+      "timestamp": 6941259,
+      "value": 6
+    },
+    "6948319": {
+      "timestamp": 6948319,
+      "value": 230
+    },
+    "6953650": {
+      "timestamp": 6953650,
+      "value": 113
+    },
+    "6959392": {
+      "timestamp": 6959392,
+      "value": 196
+    },
+    "6964806": {
+      "timestamp": 6964806,
+      "value": 77
+    },
+    "6970668": {
+      "timestamp": 6970668,
+      "value": 95
+    },
+    "6976480": {
+      "timestamp": 6976480,
+      "value": 73
+    },
+    "6984363": {
+      "timestamp": 6984363,
+      "value": 228
+    },
+    "6989722": {
+      "timestamp": 6989722,
+      "value": 18
+    },
+    "6995163": {
+      "timestamp": 6995163,
+      "value": 203
+    },
+    "7000881": {
+      "timestamp": 7000881,
+      "value": 51
+    },
+    "7006322": {
+      "timestamp": 7006322,
+      "value": 89
+    },
+    "7011918": {
+      "timestamp": 7011918,
+      "value": 245
+    },
+    "7017339": {
+      "timestamp": 7017339,
+      "value": 86
+    },
+    "7022680": {
+      "timestamp": 7022680,
+      "value": 135
+    },
+    "7028499": {
+      "timestamp": 7028499,
+      "value": 245
+    },
+    "7033828": {
+      "timestamp": 7033828,
+      "value": 228
+    },
+    "7039170": {
+      "timestamp": 7039170,
+      "value": 153
+    },
+    "7044578": {
+      "timestamp": 7044578,
+      "value": 55
+    },
+    "7050006": {
+      "timestamp": 7050006,
+      "value": 35
+    },
+    "7055776": {
+      "timestamp": 7055776,
+      "value": 73
+    },
+    "7061987": {
+      "timestamp": 7061987,
+      "value": 130
+    },
+    "7067739": {
+      "timestamp": 7067739,
+      "value": 124
+    },
+    "7073149": {
+      "timestamp": 7073149,
+      "value": 73
+    },
+    "7078786": {
+      "timestamp": 7078786,
+      "value": 150
+    },
+    "7084106": {
+      "timestamp": 7084106,
+      "value": 216
+    },
+    "7089539": {
+      "timestamp": 7089539,
+      "value": 165
+    },
+    "7094882": {
+      "timestamp": 7094882,
+      "value": 46
+    },
+    "7100844": {
+      "timestamp": 7100844,
+      "value": 35
+    },
+    "7106839": {
+      "timestamp": 7106839,
+      "value": 162
+    },
+    "7112164": {
+      "timestamp": 7112164,
+      "value": 125
+    },
+    "7117592": {
+      "timestamp": 7117592,
+      "value": 35
+    },
+    "7123047": {
+      "timestamp": 7123047,
+      "value": 99
+    },
+    "7129676": {
+      "timestamp": 7129676,
+      "value": 193
+    },
+    "7135002": {
+      "timestamp": 7135002,
+      "value": 189
+    },
+    "7140428": {
+      "timestamp": 7140428,
+      "value": 166
+    },
+    "7145765": {
+      "timestamp": 7145765,
+      "value": 192
+    },
+    "7151315": {
+      "timestamp": 7151315,
+      "value": 64
+    },
+    "7156710": {
+      "timestamp": 7156710,
+      "value": 223
+    },
+    "7162443": {
+      "timestamp": 7162443,
+      "value": 117
+    },
+    "7167770": {
+      "timestamp": 7167770,
+      "value": 106
+    },
+    "7173202": {
+      "timestamp": 7173202,
+      "value": 173
+    },
+    "7178656": {
+      "timestamp": 7178656,
+      "value": 0
+    },
+    "7184291": {
+      "timestamp": 7184291,
+      "value": 144
+    },
+    "7190297": {
+      "timestamp": 7190297,
+      "value": 173
+    },
+    "7195980": {
+      "timestamp": 7195980,
+      "value": 192
+    },
+    "7201373": {
+      "timestamp": 7201373,
+      "value": 246
+    },
+    "7207748": {
+      "timestamp": 7207748,
+      "value": 218
+    },
+    "7213135": {
+      "timestamp": 7213135,
+      "value": 198
+    },
+    "7218562": {
+      "timestamp": 7218562,
+      "value": 109
+    },
+    "7223990": {
+      "timestamp": 7223990,
+      "value": 139
+    },
+    "7229417": {
+      "timestamp": 7229417,
+      "value": 180
+    },
+    "7234850": {
+      "timestamp": 7234850,
+      "value": 56
+    },
+    "7240579": {
+      "timestamp": 7240579,
+      "value": 95
+    },
+    "7246415": {
+      "timestamp": 7246415,
+      "value": 143
+    },
+    "7251845": {
+      "timestamp": 7251845,
+      "value": 80
+    },
+    "7257314": {
+      "timestamp": 7257314,
+      "value": 3
+    },
+    "7262844": {
+      "timestamp": 7262844,
+      "value": 17
+    },
+    "7268237": {
+      "timestamp": 7268237,
+      "value": 242
+    },
+    "7273655": {
+      "timestamp": 7273655,
+      "value": 184
+    },
+    "7279090": {
+      "timestamp": 7279090,
+      "value": 246
+    },
+    "7284510": {
+      "timestamp": 7284510,
+      "value": 68
+    },
+    "7289984": {
+      "timestamp": 7289984,
+      "value": 50
+    },
+    "7295690": {
+      "timestamp": 7295690,
+      "value": 1
+    },
+    "7302070": {
+      "timestamp": 7302070,
+      "value": 48
+    },
+    "7309719": {
+      "timestamp": 7309719,
+      "value": 20
+    },
+    "7315142": {
+      "timestamp": 7315142,
+      "value": 3
+    },
+    "7320761": {
+      "timestamp": 7320761,
+      "value": 223
+    },
+    "7326098": {
+      "timestamp": 7326098,
+      "value": 130
+    },
+    "7331820": {
+      "timestamp": 7331820,
+      "value": 153
+    },
+    "7337678": {
+      "timestamp": 7337678,
+      "value": 221
+    },
+    "7343230": {
+      "timestamp": 7343230,
+      "value": 128
+    },
+    "7349023": {
+      "timestamp": 7349023,
+      "value": 107
+    },
+    "7354759": {
+      "timestamp": 7354759,
+      "value": 147
+    },
+    "7360090": {
+      "timestamp": 7360090,
+      "value": 121
+    },
+    "7365818": {
+      "timestamp": 7365818,
+      "value": 168
+    },
+    "7371290": {
+      "timestamp": 7371290,
+      "value": 89
+    },
+    "7376674": {
+      "timestamp": 7376674,
+      "value": 48
+    },
+    "7383227": {
+      "timestamp": 7383227,
+      "value": 235
+    },
+    "7388559": {
+      "timestamp": 7388559,
+      "value": 45
+    },
+    "7393936": {
+      "timestamp": 7393936,
+      "value": 211
+    },
+    "7399351": {
+      "timestamp": 7399351,
+      "value": 102
+    },
+    "7405185": {
+      "timestamp": 7405185,
+      "value": 252
+    },
+    "7410569": {
+      "timestamp": 7410569,
+      "value": 176
+    },
+    "7416620": {
+      "timestamp": 7416620,
+      "value": 24
+    },
+    "7422038": {
+      "timestamp": 7422038,
+      "value": 152
+    },
+    "7427465": {
+      "timestamp": 7427465,
+      "value": 111
+    },
+    "7432792": {
+      "timestamp": 7432792,
+      "value": 74
+    },
+    "7438218": {
+      "timestamp": 7438218,
+      "value": 235
+    },
+    "7443659": {
+      "timestamp": 7443659,
+      "value": 120
+    },
+    "7449101": {
+      "timestamp": 7449101,
+      "value": 134
+    },
+    "7455554": {
+      "timestamp": 7455554,
+      "value": 19
+    },
+    "7462407": {
+      "timestamp": 7462407,
+      "value": 102
+    },
+    "7468118": {
+      "timestamp": 7468118,
+      "value": 192
+    },
+    "7473855": {
+      "timestamp": 7473855,
+      "value": 246
+    },
+    "7479320": {
+      "timestamp": 7479320,
+      "value": 171
+    },
+    "7485221": {
+      "timestamp": 7485221,
+      "value": 135
+    },
+    "7491090": {
+      "timestamp": 7491090,
+      "value": 146
+    },
+    "7496484": {
+      "timestamp": 7496484,
+      "value": 96
+    },
+    "7502219": {
+      "timestamp": 7502219,
+      "value": 43
+    },
+    "7507685": {
+      "timestamp": 7507685,
+      "value": 56
+    },
+    "7513382": {
+      "timestamp": 7513382,
+      "value": 216
+    },
+    "7521675": {
+      "timestamp": 7521675,
+      "value": 140
+    },
+    "7527010": {
+      "timestamp": 7527010,
+      "value": 71
+    },
+    "7533555": {
+      "timestamp": 7533555,
+      "value": 178
+    },
+    "7540338": {
+      "timestamp": 7540338,
+      "value": 194
+    },
+    "7546162": {
+      "timestamp": 7546162,
+      "value": 33
+    },
+    "7552505": {
+      "timestamp": 7552505,
+      "value": 131
+    },
+    "7557848": {
+      "timestamp": 7557848,
+      "value": 4
+    },
+    "7563253": {
+      "timestamp": 7563253,
+      "value": 91
+    },
+    "7569842": {
+      "timestamp": 7569842,
+      "value": 209
+    },
+    "7576872": {
+      "timestamp": 7576872,
+      "value": 55
+    },
+    "7582210": {
+      "timestamp": 7582210,
+      "value": 100
+    },
+    "7587967": {
+      "timestamp": 7587967,
+      "value": 102
+    },
+    "7593359": {
+      "timestamp": 7593359,
+      "value": 204
+    },
+    "7599810": {
+      "timestamp": 7599810,
+      "value": 89
+    },
+    "7605238": {
+      "timestamp": 7605238,
+      "value": 93
+    },
+    "7610581": {
+      "timestamp": 7610581,
+      "value": 131
+    },
+    "7616400": {
+      "timestamp": 7616400,
+      "value": 132
+    },
+    "7622237": {
+      "timestamp": 7622237,
+      "value": 208
+    },
+    "7627562": {
+      "timestamp": 7627562,
+      "value": 181
+    },
+    "7634326": {
+      "timestamp": 7634326,
+      "value": 254
+    },
+    "7639668": {
+      "timestamp": 7639668,
+      "value": 220
+    },
+    "7645116": {
+      "timestamp": 7645116,
+      "value": 147
+    },
+    "7652084": {
+      "timestamp": 7652084,
+      "value": 34
+    },
+    "7657566": {
+      "timestamp": 7657566,
+      "value": 16
+    },
+    "7662899": {
+      "timestamp": 7662899,
+      "value": 225
+    },
+    "7668318": {
+      "timestamp": 7668318,
+      "value": 77
+    },
+    "7674461": {
+      "timestamp": 7674461,
+      "value": 91
+    },
+    "7679788": {
+      "timestamp": 7679788,
+      "value": 175
+    },
+    "7685830": {
+      "timestamp": 7685830,
+      "value": 171
+    },
+    "7691264": {
+      "timestamp": 7691264,
+      "value": 247
+    },
+    "7696587": {
+      "timestamp": 7696587,
+      "value": 174
+    },
+    "7702010": {
+      "timestamp": 7702010,
+      "value": 98
+    },
+    "7707642": {
+      "timestamp": 7707642,
+      "value": 217
+    },
+    "7713273": {
+      "timestamp": 7713273,
+      "value": 242
+    },
+    "7718709": {
+      "timestamp": 7718709,
+      "value": 10
+    },
+    "7724028": {
+      "timestamp": 7724028,
+      "value": 38
+    },
+    "7729465": {
+      "timestamp": 7729465,
+      "value": 87
+    },
+    "7734899": {
+      "timestamp": 7734899,
+      "value": 128
+    },
+    "7740614": {
+      "timestamp": 7740614,
+      "value": 14
+    },
+    "7746043": {
+      "timestamp": 7746043,
+      "value": 40
+    },
+    "7751809": {
+      "timestamp": 7751809,
+      "value": 2
+    },
+    "7757715": {
+      "timestamp": 7757715,
+      "value": 251
+    },
+    "7763963": {
+      "timestamp": 7763963,
+      "value": 166
+    },
+    "7769295": {
+      "timestamp": 7769295,
+      "value": 221
+    },
+    "7775048": {
+      "timestamp": 7775048,
+      "value": 84
+    },
+    "7780500": {
+      "timestamp": 7780500,
+      "value": 138
+    },
+    "7785883": {
+      "timestamp": 7785883,
+      "value": 205
+    },
+    "7791320": {
+      "timestamp": 7791320,
+      "value": 112
+    },
+    "7797245": {
+      "timestamp": 7797245,
+      "value": 113
+    },
+    "7802677": {
+      "timestamp": 7802677,
+      "value": 12
+    },
+    "7808147": {
+      "timestamp": 7808147,
+      "value": 155
+    },
+    "7813534": {
+      "timestamp": 7813534,
+      "value": 10
+    },
+    "7818857": {
+      "timestamp": 7818857,
+      "value": 245
+    },
+    "7824286": {
+      "timestamp": 7824286,
+      "value": 231
+    },
+    "7829631": {
+      "timestamp": 7829631,
+      "value": 96
+    },
+    "7835441": {
+      "timestamp": 7835441,
+      "value": 78
+    },
+    "7840868": {
+      "timestamp": 7840868,
+      "value": 194
+    },
+    "7846193": {
+      "timestamp": 7846193,
+      "value": 212
+    },
+    "7852031": {
+      "timestamp": 7852031,
+      "value": 84
+    },
+    "7857894": {
+      "timestamp": 7857894,
+      "value": 156
+    },
+    "7863297": {
+      "timestamp": 7863297,
+      "value": 83
+    },
+    "7868722": {
+      "timestamp": 7868722,
+      "value": 41
+    },
+    "7874866": {
+      "timestamp": 7874866,
+      "value": 97
+    },
+    "7880198": {
+      "timestamp": 7880198,
+      "value": 126
+    },
+    "7886027": {
+      "timestamp": 7886027,
+      "value": 56
+    },
+    "7891557": {
+      "timestamp": 7891557,
+      "value": 241
+    },
+    "7896986": {
+      "timestamp": 7896986,
+      "value": 28
+    },
+    "7902311": {
+      "timestamp": 7902311,
+      "value": 229
+    },
+    "7907738": {
+      "timestamp": 7907738,
+      "value": 253
+    },
+    "7913192": {
+      "timestamp": 7913192,
+      "value": 38
+    },
+    "7918695": {
+      "timestamp": 7918695,
+      "value": 47
+    },
+    "7924533": {
+      "timestamp": 7924533,
+      "value": 248
+    },
+    "7930370": {
+      "timestamp": 7930370,
+      "value": 193
+    },
+    "7935807": {
+      "timestamp": 7935807,
+      "value": 42
+    },
+    "7941223": {
+      "timestamp": 7941223,
+      "value": 31
+    },
+    "7947062": {
+      "timestamp": 7947062,
+      "value": 181
+    },
+    "7952489": {
+      "timestamp": 7952489,
+      "value": 119
+    },
+    "7957818": {
+      "timestamp": 7957818,
+      "value": 72
+    },
+    "7963241": {
+      "timestamp": 7963241,
+      "value": 128
+    },
+    "7968699": {
+      "timestamp": 7968699,
+      "value": 85
+    },
+    "7974419": {
+      "timestamp": 7974419,
+      "value": 176
+    },
+    "7982083": {
+      "timestamp": 7982083,
+      "value": 14
+    },
+    "7987410": {
+      "timestamp": 7987410,
+      "value": 150
+    },
+    "7992836": {
+      "timestamp": 7992836,
+      "value": 149
+    },
+    "7998300": {
+      "timestamp": 7998300,
+      "value": 22
+    },
+    "8003691": {
+      "timestamp": 8003691,
+      "value": 49
+    },
+    "8009118": {
+      "timestamp": 8009118,
+      "value": 149
+    },
+    "8014443": {
+      "timestamp": 8014443,
+      "value": 124
+    },
+    "8019884": {
+      "timestamp": 8019884,
+      "value": 209
+    },
+    "8025297": {
+      "timestamp": 8025297,
+      "value": 153
+    },
+    "8031040": {
+      "timestamp": 8031040,
+      "value": 255
+    },
+    "8036767": {
+      "timestamp": 8036767,
+      "value": 98
+    },
+    "8043116": {
+      "timestamp": 8043116,
+      "value": 170
+    },
+    "8048441": {
+      "timestamp": 8048441,
+      "value": 218
+    },
+    "8053908": {
+      "timestamp": 8053908,
+      "value": 82
+    },
+    "8062478": {
+      "timestamp": 8062478,
+      "value": 53
+    },
+    "8067896": {
+      "timestamp": 8067896,
+      "value": 243
+    },
+    "8073232": {
+      "timestamp": 8073232,
+      "value": 104
+    },
+    "8078650": {
+      "timestamp": 8078650,
+      "value": 56
+    },
+    "8084078": {
+      "timestamp": 8084078,
+      "value": 9
+    },
+    "8089407": {
+      "timestamp": 8089407,
+      "value": 71
+    },
+    "8095340": {
+      "timestamp": 8095340,
+      "value": 211
+    },
+    "8101291": {
+      "timestamp": 8101291,
+      "value": 112
+    },
+    "8107252": {
+      "timestamp": 8107252,
+      "value": 86
+    },
+    "8113672": {
+      "timestamp": 8113672,
+      "value": 83
+    },
+    "8119002": {
+      "timestamp": 8119002,
+      "value": 103
+    },
+    "8124936": {
+      "timestamp": 8124936,
+      "value": 74
+    },
+    "8130279": {
+      "timestamp": 8130279,
+      "value": 24
+    },
+    "8136138": {
+      "timestamp": 8136138,
+      "value": 249
+    },
+    "8141524": {
+      "timestamp": 8141524,
+      "value": 255
+    },
+    "8146851": {
+      "timestamp": 8146851,
+      "value": 70
+    },
+    "8152591": {
+      "timestamp": 8152591,
+      "value": 168
+    },
+    "8158013": {
+      "timestamp": 8158013,
+      "value": 138
+    },
+    "8163339": {
+      "timestamp": 8163339,
+      "value": 199
+    },
+    "8169072": {
+      "timestamp": 8169072,
+      "value": 32
+    },
+    "8176036": {
+      "timestamp": 8176036,
+      "value": 169
+    },
+    "8181367": {
+      "timestamp": 8181367,
+      "value": 218
+    },
+    "8186711": {
+      "timestamp": 8186711,
+      "value": 158
+    },
+    "8192625": {
+      "timestamp": 8192625,
+      "value": 60
+    },
+    "8197955": {
+      "timestamp": 8197955,
+      "value": 134
+    },
+    "8203378": {
+      "timestamp": 8203378,
+      "value": 126
+    },
+    "8208709": {
+      "timestamp": 8208709,
+      "value": 116
+    },
+    "8215359": {
+      "timestamp": 8215359,
+      "value": 207
+    },
+    "8222834": {
+      "timestamp": 8222834,
+      "value": 105
+    },
+    "8228159": {
+      "timestamp": 8228159,
+      "value": 223
+    },
+    "8234212": {
+      "timestamp": 8234212,
+      "value": 229
+    },
+    "8239646": {
+      "timestamp": 8239646,
+      "value": 83
+    },
+    "8245056": {
+      "timestamp": 8245056,
+      "value": 102
+    },
+    "8252157": {
+      "timestamp": 8252157,
+      "value": 11
+    },
+    "8257764": {
+      "timestamp": 8257764,
+      "value": 251
+    },
+    "8263596": {
+      "timestamp": 8263596,
+      "value": 36
+    },
+    "8269018": {
+      "timestamp": 8269018,
+      "value": 105
+    },
+    "8274343": {
+      "timestamp": 8274343,
+      "value": 193
+    },
+    "8280287": {
+      "timestamp": 8280287,
+      "value": 55
+    },
+    "8285709": {
+      "timestamp": 8285709,
+      "value": 148
+    },
+    "8291041": {
+      "timestamp": 8291041,
+      "value": 127
+    },
+    "8297180": {
+      "timestamp": 8297180,
+      "value": 243
+    },
+    "8302504": {
+      "timestamp": 8302504,
+      "value": 255
+    },
+    "8307829": {
+      "timestamp": 8307829,
+      "value": 50
+    },
+    "8313397": {
+      "timestamp": 8313397,
+      "value": 9
+    },
+    "8318793": {
+      "timestamp": 8318793,
+      "value": 61
+    },
+    "8324453": {
+      "timestamp": 8324453,
+      "value": 23
+    },
+    "8330153": {
+      "timestamp": 8330153,
+      "value": 165
+    },
+    "8335479": {
+      "timestamp": 8335479,
+      "value": 190
+    },
+    "8341110": {
+      "timestamp": 8341110,
+      "value": 105
+    },
+    "8346546": {
+      "timestamp": 8346546,
+      "value": 192
+    },
+    "8351868": {
+      "timestamp": 8351868,
+      "value": 82
+    },
+    "8357290": {
+      "timestamp": 8357290,
+      "value": 55
+    },
+    "8362616": {
+      "timestamp": 8362616,
+      "value": 54
+    },
+    "8369886": {
+      "timestamp": 8369886,
+      "value": 76
+    },
+    "8375226": {
+      "timestamp": 8375226,
+      "value": 31
+    },
+    "8380638": {
+      "timestamp": 8380638,
+      "value": 17
+    },
+    "8386066": {
+      "timestamp": 8386066,
+      "value": 11
+    },
+    "8392446": {
+      "timestamp": 8392446,
+      "value": 29
+    },
+    "8397842": {
+      "timestamp": 8397842,
+      "value": 252
+    },
+    "8404931": {
+      "timestamp": 8404931,
+      "value": 48
+    },
+    "8410336": {
+      "timestamp": 8410336,
+      "value": 97
+    },
+    "8415762": {
+      "timestamp": 8415762,
+      "value": 74
+    },
+    "8421189": {
+      "timestamp": 8421189,
+      "value": 247
+    },
+    "8426520": {
+      "timestamp": 8426520,
+      "value": 94
+    },
+    "8436487": {
+      "timestamp": 8436487,
+      "value": 189
+    },
+    "8442120": {
+      "timestamp": 8442120,
+      "value": 158
+    },
+    "8447508": {
+      "timestamp": 8447508,
+      "value": 27
+    },
+    "8452839": {
+      "timestamp": 8452839,
+      "value": 103
+    },
+    "8458260": {
+      "timestamp": 8458260,
+      "value": 137
+    },
+    "8463731": {
+      "timestamp": 8463731,
+      "value": 112
+    },
+    "8469422": {
+      "timestamp": 8469422,
+      "value": 219
+    },
+    "8474849": {
+      "timestamp": 8474849,
+      "value": 59
+    },
+    "8480691": {
+      "timestamp": 8480691,
+      "value": 95
+    },
+    "8486554": {
+      "timestamp": 8486554,
+      "value": 85
+    },
+    "8491952": {
+      "timestamp": 8491952,
+      "value": 128
+    },
+    "8498505": {
+      "timestamp": 8498505,
+      "value": 11
+    },
+    "8503834": {
+      "timestamp": 8503834,
+      "value": 85
+    },
+    "8509665": {
+      "timestamp": 8509665,
+      "value": 125
+    },
+    "8515122": {
+      "timestamp": 8515122,
+      "value": 146
+    },
+    "8520724": {
+      "timestamp": 8520724,
+      "value": 179
+    },
+    "8526666": {
+      "timestamp": 8526666,
+      "value": 50
+    },
+    "8531992": {
+      "timestamp": 8531992,
+      "value": 102
+    },
+    "8537426": {
+      "timestamp": 8537426,
+      "value": 16
+    }
+  }
+}

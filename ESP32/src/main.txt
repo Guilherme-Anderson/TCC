@@ -1,0 +1,77 @@
+#include <Arduino.h>
+#include <WiFi.h>
+#include <Firebase_ESP_Client.h> // Biblioteca Firebase Arduino Client
+
+// Configurações do Wi-Fi
+#define WIFI_SSID "Quarto"
+#define WIFI_PASSWORD "guigu123"
+
+// Configurações do Firebase
+#define FIREBASE_HOST "https://tcc-2025-1b2ee-default-rtdb.firebaseio.com/"
+#define FIREBASE_AUTH "AIzaSyCBcLI4494DMq119Q4sofI0fXNecsWc0xY"
+
+// Objetos Firebase
+FirebaseData fbdo; // Objeto para manipular dados no Firebase
+FirebaseAuth auth;  // Objeto de autenticação
+FirebaseConfig config; // Configuração do Firebase
+
+// Variável para o ID
+int ID = 0;
+
+void setup() {
+  // Inicializa a comunicação serial
+  Serial.begin(115200);
+
+  // Conecta ao Wi-Fi
+  WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+  Serial.print("Conectando ao Wi-Fi");
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println();
+  Serial.print("Conectado com IP: ");
+  Serial.println(WiFi.localIP());
+
+  // Configura o Firebase
+  config.database_url = FIREBASE_HOST; // Define a URL do banco de dados
+  config.signer.tokens.legacy_token = FIREBASE_AUTH; // Define a chave de autenticação
+
+  // Inicializa o Firebase
+  Firebase.begin(&config, &auth);
+  Firebase.reconnectWiFi(true);
+
+  // Verifica se o Firebase foi inicializado corretamente
+  if (Firebase.ready()) {
+    Serial.println("Firebase inicializado com sucesso!");
+  } else {
+    Serial.println("Falha ao inicializar o Firebase.");
+  }
+}
+
+void loop() {
+  // Gera um número aleatório entre 0 e 255 (substitua pela leitura do sensor)
+  int valor = random(0, 256);
+
+  // Obtém o tempo relativo em segundos com uma casa decimal
+  float tempo = millis() / 1000.0; // Converte para segundos
+
+  // Incrementa o ID
+  ID++;
+
+  // Cria o caminho no banco de dados
+  String path = "/teste/" + String(millis()); // Usa millis() como chave única
+
+  // Envia o ID, o tempo e o valor para o Firebase
+  if (Firebase.RTDB.setInt(&fbdo, path + "/ID", ID) && 
+      Firebase.RTDB.setFloat(&fbdo, path + "/tempo", tempo) &&
+      Firebase.RTDB.setInt(&fbdo, path + "/valor", valor)) {
+    Serial.println("Dados enviados com sucesso!");
+  } else {
+    Serial.println("Falha ao enviar dados:");
+    Serial.println(fbdo.errorReason());
+  }
+
+  // Aguarda 1 segundos antes de enviar o próximo valor
+  //delay(5000);
+}
