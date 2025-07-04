@@ -3,111 +3,129 @@
 #include <Firebase_ESP_Client.h>
 #include <FS.h>
 #include <SPIFFS.h>
+#include <time.h>
+#include <Wire.h>
+#include <INA226_WE.h>
 
-// Objetos Firebase
+#define I2C_ADDRESS 0x40
+INA226_WE ina226(I2C_ADDRESS);
+
+// Pino analógico para tensão
+const int pinoVol = 36;
+const float vRef = 3.3;
+const float resolucaoADC = 4095.0;
+const float fatorCorrecaoTensao = 6,45;
+
 FirebaseData fbdo;
 FirebaseAuth auth;
 FirebaseConfig config;
 
-// Variáveis de configuração
 String ssid, password, firebase_host, firebase_auth;
 int ID = 0;
 
-// Função para ler uma chave do arquivo config.env
+// --------------- Funções Auxiliares -----------------
 String getEnvValue(String key) {
   File file = SPIFFS.open("/config.env", "r");
-  if (!file) {
-    Serial.println("Erro ao abrir config.env");
-    return "";
-  }
-
+  if (!file) return "";
   while (file.available()) {
     String linha = file.readStringUntil('\n');
-    linha.trim();  // Remove espaços e quebras de linha
-
+    linha.trim();
     if (linha.startsWith("#") || linha.length() == 0) continue;
-
     int idx = linha.indexOf('=');
     if (idx != -1) {
       String k = linha.substring(0, idx);
       String v = linha.substring(idx + 1);
-      k.trim();
-      v.trim();
-
+      k.trim(); v.trim();
       if (k == key) {
         file.close();
         return v;
       }
     }
   }
-
   file.close();
   return "";
 }
 
+void reiniciarDispositivo(const String& motivo) {
+  delay(1000);
+  ESP.restart();
+}
 
+// --------------- Funções de Média -----------------
+float mediaCorrente() {
+  float soma = 0;
+  for (int i = 0; i < 100; i++) {
+    soma += ina226.getCurrent_mA();
+    delay(2);
+  }
+  return (soma / 100.0) / 1000.0; // A
+}
+
+float mediaTensao() {
+  float soma = 0;
+  for (int i = 0; i < 100; i++) {
+    int leitura = analogRead(pinoVol);
+    float vSaida = (leitura / resolucaoADC) * vRef;
+    soma += vSaida * fatorCorrecaoTensao;
+    delay(2);
+  }
+  return soma / 100.0;
+}
+
+// --------------- Setup -----------------
 void setup() {
   Serial.begin(115200);
+  if (!SPIFFS.begin(true)) reiniciarDispositivo("Erro SPIFFS");
 
-  // Inicializa SPIFFS
-  if (!SPIFFS.begin(true)) {
-    Serial.println("Erro ao montar SPIFFS");
-    return;
-  }
-
-  // Carrega credenciais do arquivo
   ssid = getEnvValue("WIFI_SSID");
   password = getEnvValue("WIFI_PASSWORD");
   firebase_host = getEnvValue("FIREBASE_HOST");
   firebase_auth = getEnvValue("FIREBASE_AUTH");
 
-  Serial.println("Valores carregados:");
-  Serial.println("SSID: [" + ssid + "]");
-  Serial.println("PASS: [" + password + "]");
-  Serial.println("HOST: [" + firebase_host + "]");
-  Serial.println("AUTH: [" + firebase_auth + "]");
-
-
-  // Conecta ao Wi-Fi
   WiFi.begin(ssid.c_str(), password.c_str());
-  Serial.print("Conectando ao Wi-Fi");
-  while (WiFi.status() != WL_CONNECTED) {
+  int tentativas = 0;
+  while (WiFi.status() != WL_CONNECTED && tentativas++ < 20) {
     delay(500);
-    Serial.print(".");
   }
-  Serial.println();
-  Serial.print("Conectado com IP: ");
-  Serial.println(WiFi.localIP());
+  if (WiFi.status() != WL_CONNECTED) reiniciarDispositivo("Wi-Fi não conectado");
 
-  // Configura Firebase
   config.database_url = firebase_host.c_str();
   config.signer.tokens.legacy_token = firebase_auth.c_str();
-
   Firebase.begin(&config, &auth);
   Firebase.reconnectWiFi(true);
+  if (!Firebase.ready()) reiniciarDispositivo("Firebase não pronto");
 
-  if (Firebase.ready()) {
-    Serial.println("Firebase inicializado com sucesso!");
-  } else {
-    Serial.println("Falha ao inicializar o Firebase.");
-  }
+  configTime(-3 * 3600, 0, "pool.ntp.org", "time.nist.gov");
+
+  Wire.begin(21, 22);
+  if (!ina226.init()) reiniciarDispositivo("INA226 não detectado");
+
+  ina226.setAverage(AVERAGE_16);
+  ina226.setConversionTime(CONV_TIME_1100);
+  ina226.setMeasureMode(CONTINUOUS);
+  ina226.setCorrectionFactor(3.0); // Fator calibrado com base no multímetro
 }
 
+// --------------- Loop Principal -----------------
 void loop() {
-  int valor = random(0, 256);
-  float tempo = millis() / 1000.0;
-  ID++;
+  float valorAmp = mediaCorrente();
+  float valorVol = mediaTensao();
 
-  String path = "/teste/" + String(millis());
+  struct tm timeinfo;
+  if (!getLocalTime(&timeinfo)) reiniciarDispositivo("Erro NTP");
 
-  if (Firebase.RTDB.setInt(&fbdo, path + "/ID", ID) &&
-      Firebase.RTDB.setFloat(&fbdo, path + "/tempo", tempo) &&
-      Firebase.RTDB.setInt(&fbdo, path + "/valor", valor)) {
-    Serial.println("Dados enviados com sucesso!");
-  } else {
-    Serial.println("Falha ao enviar dados:");
-    Serial.println(fbdo.errorReason());
-  }
+  char dataStr[11], horaStr[9];
+  strftime(dataStr, sizeof(dataStr), "%Y-%m-%d", &timeinfo);
+  strftime(horaStr, sizeof(horaStr), "%H:%M:%S", &timeinfo);
+  time_t timestamp = time(nullptr);
 
-  delay(5000);
+  String path = "/ESP32/" + String(dataStr) + "/" + String(timestamp);
+
+  bool sucesso =
+    Firebase.RTDB.setInt(&fbdo, path + "/ID", ID++) &&
+    Firebase.RTDB.setFloat(&fbdo, path + "/valorAmp", valorAmp) &&
+    Firebase.RTDB.setFloat(&fbdo, path + "/valorVol", valorVol) &&
+    Firebase.RTDB.setString(&fbdo, path + "/hora", horaStr);
+
+  delay(60000);  // Envia a cada 60 segundos
 }
