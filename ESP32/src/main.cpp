@@ -14,7 +14,7 @@ INA226_WE ina226(I2C_ADDRESS);
 const int pinoVol = 36;
 const float vRef = 3.3;
 const float resolucaoADC = 4095.0;
-const float fatorCorrecaoTensao = 6,45;
+const float fatorCorrecaoTensao = 6.45;
 
 FirebaseData fbdo;
 FirebaseAuth auth;
