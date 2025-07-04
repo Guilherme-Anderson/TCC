@@ -1,0 +1,160 @@
+#include <Arduino.h>
+#include <WiFi.h>
+#include <Firebase_ESP_Client.h>
+#include <FS.h>
+#include <SPIFFS.h>
+#include <time.h>
+#include <Wire.h>
+#include <INA226_WE.h>
+#include <TelnetStream.h>
+
+#define I2C_ADDRESS 0x40
+INA226_WE ina226(I2C_ADDRESS);
+
+// Pino analógico para tensão
+const int pinoVol = 39;
+const float vRef = 3.3;
+const float resolucaoADC = 4095.0;
+const float fatorCorrecaoTensao = 19.9 / 3.3;
+
+FirebaseData fbdo;
+FirebaseAuth auth;
+FirebaseConfig config;
+
+String ssid, password, firebase_host, firebase_auth;
+int ID = 0;
+
+// --------------- Funções Auxiliares -----------------
+String getEnvValue(String key) {
+  File file = SPIFFS.open("/config.env", "r");
+  if (!file) return "";
+  while (file.available()) {
+    String linha = file.readStringUntil('\n');
+    linha.trim();
+    if (linha.startsWith("#") || linha.length() == 0) continue;
+    int idx = linha.indexOf('=');
+    if (idx != -1) {
+      String k = linha.substring(0, idx);
+      String v = linha.substring(idx + 1);
+      k.trim(); v.trim();
+      if (k == key) {
+        file.close();
+        return v;
+      }
+    }
+  }
+  file.close();
+  return "";
+}
+
+void log(const String& msg) {
+  Serial.println(msg);
+  if (WiFi.status() == WL_CONNECTED) {
+    TelnetStream.println(msg);
+  }
+}
+
+void reiniciarDispositivo(const String& motivo) {
+  log("[REINICIO] " + motivo);
+  delay(1000);
+  ESP.restart();
+}
+
+// --------------- Funções de Média -----------------
+float mediaCorrente() {
+  float soma = 0;
+  for (int i = 0; i < 50; i++) {
+    soma += ina226.getCurrent_mA();
+    delay(2);
+  }
+  return (soma / 50.0) / 1000.0;
+}
+
+float mediaTensao() {
+  float soma = 0;
+  for (int i = 0; i < 50; i++) {
+    int leitura = analogRead(pinoVol);
+    float vSaida = (leitura / resolucaoADC) * vRef;
+    soma += vSaida * fatorCorrecaoTensao;
+    delay(2);
+  }
+  return soma / 50.0;
+}
+
+// --------------- Setup -----------------
+void setup() {
+  Serial.begin(115200);
+  if (!SPIFFS.begin(true)) reiniciarDispositivo("Erro ao montar SPIFFS");
+
+  ssid = getEnvValue("WIFI_SSID");
+  password = getEnvValue("WIFI_PASSWORD");
+  firebase_host = getEnvValue("FIREBASE_HOST");
+  firebase_auth = getEnvValue("FIREBASE_AUTH");
+
+  Serial.print(ssid);
+
+  WiFi.begin(ssid.c_str(), password.c_str());
+  Serial.print("Conectando ao Wi-Fi");
+  int tentativas = 0;
+  while (WiFi.status() != WL_CONNECTED && tentativas++ < 20) {
+    delay(500);
+    Serial.print(".");
+  }
+  if (WiFi.status() != WL_CONNECTED) reiniciarDispositivo("Falha Wi-Fi");
+
+  Serial.println("\nWi-Fi conectado: " + WiFi.localIP().toString());
+
+  // ✅ Agora é seguro iniciar o Telnet
+  TelnetStream.begin();
+  log("Telnet iniciado.");
+
+  config.database_url = firebase_host.c_str();
+  config.signer.tokens.legacy_token = firebase_auth.c_str();
+  Firebase.begin(&config, &auth);
+  Firebase.reconnectWiFi(true);
+  if (!Firebase.ready()) reiniciarDispositivo("Firebase não está pronto");
+
+  configTime(-3 * 3600, 0, "pool.ntp.org", "time.nist.gov");
+
+  Wire.begin();
+  if (!ina226.init()) reiniciarDispositivo("INA226 não detectado");
+
+  ina226.setAverage(AVERAGE_16);
+  ina226.setConversionTime(CONV_TIME_1100);
+  ina226.setMeasureMode(CONTINUOUS);
+}
+
+// --------------- Loop Principal -----------------
+void loop() {
+  float valorAmp = mediaCorrente();
+  float valorVol = mediaTensao();
+
+  struct tm timeinfo;
+  if (!getLocalTime(&timeinfo)) reiniciarDispositivo("Erro NTP");
+
+  char dataStr[11], horaStr[9];
+  strftime(dataStr, sizeof(dataStr), "%Y-%m-%d", &timeinfo);
+  strftime(horaStr, sizeof(horaStr), "%H:%M:%S", &timeinfo);
+  time_t timestamp = time(nullptr);
+
+  String path = "/ESP32/" + String(dataStr) + "/" + String(timestamp);
+
+  bool sucesso =
+    Firebase.RTDB.setInt(&fbdo, path + "/ID", ID++) &&
+    Firebase.RTDB.setFloat(&fbdo, path + "/tempo", millis() / 1000.0) &&
+    Firebase.RTDB.setFloat(&fbdo, path + "/valorAmp", valorAmp) &&
+    Firebase.RTDB.setFloat(&fbdo, path + "/valorVol", valorVol) &&
+    Firebase.RTDB.setString(&fbdo, path + "/hora", horaStr);
+
+  if (sucesso) {
+    char buffer[120];
+    snprintf(buffer, sizeof(buffer), "✅ Corrente: a%.4f A | Tensão: %.2f V | Hora: %s", valorAmp, valorVol, horaStr);
+    log(buffer);
+  } else {
+    log("❌ Erro ao enviar dados:");
+    log(fbdo.errorReason());
+    reiniciarDispositivo("Erro no envio Firebase");
+  }
+
+  delay(60000);  // Espera 1 minuto
+}

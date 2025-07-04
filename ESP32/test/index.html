@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Visualização Firebase TCC</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    select {
+      padding: 5px;
+      margin-bottom: 15px;
+    }
+    .item {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      background: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <h2>Visualizar leituras do Firebase</h2>
+
+  <label for="nó">Selecionar nó raiz:</label>
+  <select id="nó">
+    <option value="">-- Carregando nós... --</option>
+  </select>
+
+  <div id="saida"></div>
+
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
+
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyCBcLI4494DMq119Q4sofI0fXNecsWc0xY",
+      databaseURL: "https://tcc-2025-1b2ee-default-rtdb.firebaseio.com"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.database();
+
+    const seletorNo = document.getElementById("nó");
+    const saida = document.getElementById("saida");
+
+    function carregarNosRaiz() {
+      db.ref().once("value", snapshot => {
+        const dados = snapshot.val();
+        seletorNo.innerHTML = '<option value="">-- Escolha um nó --</option>';
+
+        if (!dados) return;
+
+        Object.keys(dados).forEach(no => {
+          const opcao = document.createElement("option");
+          opcao.value = no;
+          opcao.textContent = no;
+          seletorNo.appendChild(opcao);
+        });
+      });
+    }
+
+    seletorNo.addEventListener("change", () => {
+      const no = seletorNo.value;
+      saida.innerHTML = "";
+
+      if (!no) return;
+
+      db.ref(no).once("value", snapshot => {
+        const dados = snapshot.val();
+
+        if (!dados) {
+          saida.innerHTML = "<p>Nenhum dado encontrado.</p>";
+          return;
+        }
+
+        const chaves = Object.keys(dados).sort();
+
+        chaves.forEach(chave => {
+          const item = dados[chave];
+          if (item && typeof item === "object") {
+            const html = `
+              <div class="item">
+                <strong>Chave:</strong> ${chave}<br>
+                <strong>ID:</strong> ${item.ID}<br>
+                <strong>Tempo:</strong> ${item.tempo}<br>
+                <strong>Corrente (A):</strong> ${item.valorAmp}<br>
+                <strong>Tensão (V):</strong> ${item.valorVol}
+              </div>
+            `;
+            saida.innerHTML += html;
+          }
+        });
+      });
+    });
+
+    carregarNosRaiz();
+  </script>
+</body>
+</html>

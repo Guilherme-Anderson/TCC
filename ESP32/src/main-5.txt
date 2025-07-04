@@ -1,0 +1,142 @@
+#include <Arduino.h>
+#include <WiFi.h>
+#include <Firebase_ESP_Client.h>
+#include <FS.h>
+#include <SPIFFS.h>
+#include <time.h>
+
+// Pinos analógicos
+const int pinoAmp = 36;
+const int pinoVol = 39;
+
+// Parâmetros do ADC e sensor
+const float vRef = 3.3;
+const float resolucaoADC = 4095.0;
+const float sensibilidadeACS = 0.082;
+const float fatorCorrecaoTensao = 19.9 / 3.3; // Correção para refletir 19.9V reais
+
+// Firebase
+FirebaseData fbdo;
+FirebaseAuth auth;
+FirebaseConfig config;
+
+String ssid, password, firebase_host, firebase_auth;
+int ID = 0;
+
+// Lê valores do arquivo config.env
+String getEnvValue(String key) {
+  File file = SPIFFS.open("/config.env", "r");
+  if (!file) {
+    Serial.println("Erro ao abrir config.env");
+    return "";
+  }
+
+  while (file.available()) {
+    String linha = file.readStringUntil('\n');
+    linha.trim();
+    if (linha.startsWith("#") || linha.length() == 0) continue;
+
+    int idx = linha.indexOf('=');
+    if (idx != -1) {
+      String k = linha.substring(0, idx);
+      String v = linha.substring(idx + 1);
+      k.trim(); v.trim();
+      if (k == key) {
+        file.close();
+        return v;
+      }
+    }
+  }
+  file.close();
+  return "";
+}
+
+void reiniciarDispositivo(const String& motivo) {
+  Serial.println("[REINICIO] " + motivo);
+  delay(1000);
+  ESP.restart();
+}
+
+void setup() {
+  Serial.begin(115200);
+
+  if (!SPIFFS.begin(true)) {
+    Serial.println("Erro ao montar SPIFFS");
+    reiniciarDispositivo("Falha no SPIFFS");
+  }
+
+  ssid = getEnvValue("WIFI_SSID");
+  password = getEnvValue("WIFI_PASSWORD");
+  firebase_host = getEnvValue("FIREBASE_HOST");
+  firebase_auth = getEnvValue("FIREBASE_AUTH");
+
+  WiFi.begin(ssid.c_str(), password.c_str());
+  Serial.print("Conectando ao Wi-Fi");
+  int tentativas = 0;
+  while (WiFi.status() != WL_CONNECTED && tentativas++ < 20) {
+    delay(500);
+    Serial.print(".");
+  }
+  if (WiFi.status() != WL_CONNECTED) {
+    reiniciarDispositivo("Falha na conexão Wi-Fi");
+  }
+
+  Serial.println();
+  Serial.print("Conectado com IP: ");
+  Serial.println(WiFi.localIP());
+
+  config.database_url = firebase_host.c_str();
+  config.signer.tokens.legacy_token = firebase_auth.c_str();
+  Firebase.begin(&config, &auth);
+  Firebase.reconnectWiFi(true);
+
+  if (!Firebase.ready()) {
+    reiniciarDispositivo("Firebase não está pronto");
+  }
+
+  configTime(-3 * 3600, 0, "pool.ntp.org", "time.nist.gov");
+}
+
+void loop() {
+  // Leitura simples da corrente
+  int leituraAmp = analogRead(pinoAmp);
+  float tensaoAmp = (leituraAmp / resolucaoADC) * vRef;
+  float valorAmp = tensaoAmp / sensibilidadeACS;
+
+  // Leitura da tensão com fator de correção ajustado
+  int leituraVol = analogRead(pinoVol);
+  float vSaidaDivisor = (leituraVol / resolucaoADC) * vRef;
+  float valorVol = vSaidaDivisor * fatorCorrecaoTensao;
+
+  struct tm timeinfo;
+  if (!getLocalTime(&timeinfo)) {
+    reiniciarDispositivo("Falha ao obter hora NTP");
+  }
+
+  char dataStr[11];
+  char horaStr[9];
+  strftime(dataStr, sizeof(dataStr), "%Y-%m-%d", &timeinfo);
+  strftime(horaStr, sizeof(horaStr), "%H:%M:%S", &timeinfo);
+
+  time_t timestamp = time(nullptr);
+  String path = "/150625-teste/" + String(dataStr) + "/" + String(timestamp);
+
+  bool sucesso = Firebase.RTDB.setInt(&fbdo, path + "/ID", ID++) &&
+                 Firebase.RTDB.setFloat(&fbdo, path + "/tempo", millis() / 1000.0) &&
+                 Firebase.RTDB.setFloat(&fbdo, path + "/valorAmp", valorAmp) &&
+                 Firebase.RTDB.setFloat(&fbdo, path + "/valorVol", valorVol) &&
+                 Firebase.RTDB.setString(&fbdo, path + "/hora", horaStr);
+
+  if (sucesso) {
+    Serial.println("Dados enviados com sucesso!");
+    Serial.print("Corrente (A): "); Serial.print(valorAmp, 4);
+    Serial.print(" | Tensão (V): "); Serial.print(valorVol, 2);
+    Serial.print(" | Hora: "); Serial.println(horaStr);
+  } else {
+    Serial.println("Falha ao enviar dados:");
+    Serial.println(fbdo.errorReason());
+    reiniciarDispositivo("Falha no envio para o Firebase");
+  }
+
+  delay(10000);
+}

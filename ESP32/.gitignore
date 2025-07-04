@@ -4,4 +4,3 @@
 .vscode/launch.json
 .vscode/ipch
 data/config.env
-ESP32/Request/serviceAccountKey.json
